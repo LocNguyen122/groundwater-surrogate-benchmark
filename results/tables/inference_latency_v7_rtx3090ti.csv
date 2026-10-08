@@ -1,0 +1,5 @@
+family,input_channels,param_count_M,latency_mean_s,latency_median_s,latency_p95_s,latency_std_s,peak_gpu_mem_MB,iters,device
+CTA-UNet matched,3,26.08,0.2157,0.2139,0.2276,0.0068,541.9,20,NVIDIA GeForce RTX 3090 Ti
+CTA-UNet K-only,1,26.079,0.2113,0.2108,0.2229,0.0064,542.6,20,NVIDIA GeForce RTX 3090 Ti
+MS-TMO matched,3,26.072,0.158,0.1548,0.1724,0.0088,455.2,20,NVIDIA GeForce RTX 3090 Ti
+CTA-UNet V1,3,26.084,0.2049,0.203,0.2135,0.0047,544.3,20,NVIDIA GeForce RTX 3090 Ti

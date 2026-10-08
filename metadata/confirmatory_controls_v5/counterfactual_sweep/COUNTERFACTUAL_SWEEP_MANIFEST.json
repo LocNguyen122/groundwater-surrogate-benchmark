@@ -1,0 +1,41 @@
+{
+  "purpose": "Inference-only fixed coefficient-pair sweep using checkpoint training statistics.",
+  "files": [
+    {
+      "path": "metadata/confirmatory_controls_v5/counterfactual_sweep/fixed_alphaL_0p62_ratio_0p1.csv",
+      "alpha_L": 0.62,
+      "alpha_T_ratio": 0.1,
+      "sha256": "cc98bfb9d2c5daf689f951be5c0f455f4bef59a08c802d117202cafefd20d13e"
+    },
+    {
+      "path": "metadata/confirmatory_controls_v5/counterfactual_sweep/fixed_alphaL_0p62_ratio_1p0.csv",
+      "alpha_L": 0.62,
+      "alpha_T_ratio": 1.0,
+      "sha256": "cc40e3802d9763ee7c69f866556765d2d1885aac497f13f30880ac7ecf0aa7fb"
+    },
+    {
+      "path": "metadata/confirmatory_controls_v5/counterfactual_sweep/fixed_alphaL_6p2_ratio_0p1.csv",
+      "alpha_L": 6.2,
+      "alpha_T_ratio": 0.1,
+      "sha256": "d66c78c420dc81217f879dc3630bcacbf2f4f1f5f739548fe0dc975ba90106b9"
+    },
+    {
+      "path": "metadata/confirmatory_controls_v5/counterfactual_sweep/fixed_alphaL_6p2_ratio_1p0.csv",
+      "alpha_L": 6.2,
+      "alpha_T_ratio": 1.0,
+      "sha256": "97b2d12db50df875bd61b943b37ff102b8dc78a23463103270d06fbee2d03417"
+    },
+    {
+      "path": "metadata/confirmatory_controls_v5/counterfactual_sweep/fixed_alphaL_62p0_ratio_0p1.csv",
+      "alpha_L": 62.0,
+      "alpha_T_ratio": 0.1,
+      "sha256": "f1753c01454f32a11014e2545114633ae5e7ddfaf73b6e9aa7d9cfe132606bbd"
+    },
+    {
+      "path": "metadata/confirmatory_controls_v5/counterfactual_sweep/fixed_alphaL_62p0_ratio_1p0.csv",
+      "alpha_L": 62.0,
+      "alpha_T_ratio": 1.0,
+      "sha256": "a51505e09825716ba452bc79f83d7855d5dce73bbda6a51cce7224c001a8e9ec"
+    }
+  ]
+}

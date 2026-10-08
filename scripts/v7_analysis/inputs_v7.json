@@ -1,0 +1,27 @@
+{
+  "json": {
+    "grouped": "../../results/v7/analysis/v7_grouped_results.json",
+    "pilot": "../../results/v7/analysis/v7_pilot_exclusion_sensitivity.json",
+    "poolT": "../../results/v7/analysis/v7_poolT_best_terminal_2026-10-08.json",
+    "last": "../../results/v7/analysis/v7_poolT_last_terminal_2026-10-08.json",
+    "engineering": "../../results/v7/analysis/v7_poolT_engineering_O5b.json",
+    "exploratory": "../../results/v7/analysis/v7_exploratory_setting_mean_vs_rd_master.json",
+    "twin_audit": "../../results/audit_v7/conductivity_twin_audit.json",
+    "seed_classes": "../../metadata/fresh_seed/randf_seed_classes.json",
+    "sim_timing": "../../results/v7/analysis/v7_sim_timing.json",
+    "pool_independence": "../../results/v7/analysis/v7_pool_independence.json",
+    "t2": "../../results/v7/analysis/v7_T2_replication_results.json",
+    "counterfactual": "../../figures/v7/fig_v7_counterfactual.json",
+    "example": "../../figures/v7/fig_v7_twin_vs_independent.json",
+    "e2": "../../results/v7/analysis/v7_e2_poolT_results.json",
+    "e2t2": "../../results/v7/analysis/v7_e2_T2_replication.json",
+    "e2stab": "../../results/v7/analysis/v7_e2_training_stability.json",
+    "anomaly": "../../results/v7/analysis/v7_exploratory_anomaly.json"
+  },
+  "registry_v7": "../../metadata/parameter_registry_162_v7.csv",
+  "solver_qa": "../../metadata/solver_qa_exclusions_v7.csv",
+  "latency": "../../results/tables/inference_latency_v7_rtx3090ti.csv",
+  "param_counts": "../../results/tables/parameter_counts_v7.csv",
+  "pool_T_runs": "../../metadata/fresh_seed/pool_T_runs.csv",
+  "unit_tests": "../../results/v7/unit_tests_v7_terminal_2026-10-08.json"
+}

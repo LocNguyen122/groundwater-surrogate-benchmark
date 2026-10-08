@@ -1,0 +1,49 @@
+{
+  "left": "CTA matched",
+  "right": "CTA permuted",
+  "resampling_unit": "training seed and geological-factor-by-realization K block",
+  "transport_settings_within_block": "averaged before bootstrap",
+  "rng_seed": 20260715,
+  "results": [
+    {
+      "metric": "global_ssim",
+      "direction_adjusted_difference": "CTA matched better when positive",
+      "mean_difference": 0.00013007545365625677,
+      "bootstrap_ci95_lower": -9.130727831305356e-05,
+      "bootstrap_ci95_upper": 0.0003451765825146878,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "plume_ssim",
+      "direction_adjusted_difference": "CTA matched better when positive",
+      "mean_difference": 0.00043602387294498806,
+      "bootstrap_ci95_lower": -0.000464213501923581,
+      "bootstrap_ci95_upper": 0.0014494334039108435,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "ice_per_timestep",
+      "direction_adjusted_difference": "CTA matched better when positive",
+      "mean_difference": -0.873596281906498,
+      "bootstrap_ci95_lower": -17.379868952280024,
+      "bootstrap_ci95_upper": 16.767525583304298,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "concentration_mae",
+      "direction_adjusted_difference": "CTA matched better when positive",
+      "mean_difference": 4.6420297651078365e-05,
+      "bootstrap_ci95_lower": -1.0042053068810136e-05,
+      "bootstrap_ci95_upper": 0.00010453127845889871,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    }
+  ]
+}

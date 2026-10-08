@@ -1,0 +1,49 @@
+{
+  "left": "MS-TMO matched",
+  "right": "CTA matched",
+  "resampling_unit": "training seed and geological-factor-by-realization K block",
+  "transport_settings_within_block": "averaged before bootstrap",
+  "rng_seed": 20260715,
+  "results": [
+    {
+      "metric": "global_ssim",
+      "direction_adjusted_difference": "MS-TMO matched better when positive",
+      "mean_difference": -0.0007136421192105799,
+      "bootstrap_ci95_lower": -0.0009044424164955223,
+      "bootstrap_ci95_upper": -0.000512264599776503,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "plume_ssim",
+      "direction_adjusted_difference": "MS-TMO matched better when positive",
+      "mean_difference": -0.0028785365622004556,
+      "bootstrap_ci95_lower": -0.003957363850247834,
+      "bootstrap_ci95_upper": -0.001753099685041535,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "ice_per_timestep",
+      "direction_adjusted_difference": "MS-TMO matched better when positive",
+      "mean_difference": 50.304514336815984,
+      "bootstrap_ci95_lower": 19.40277990984174,
+      "bootstrap_ci95_upper": 82.48779963108363,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "concentration_mae",
+      "direction_adjusted_difference": "MS-TMO matched better when positive",
+      "mean_difference": 0.0003237210090753663,
+      "bootstrap_ci95_lower": 0.00023092752544643045,
+      "bootstrap_ci95_upper": 0.0004232704109615802,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    }
+  ]
+}

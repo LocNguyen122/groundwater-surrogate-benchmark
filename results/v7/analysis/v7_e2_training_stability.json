@@ -1,0 +1,16 @@
+{
+ "n_runs": 25,
+ "epochs_all_200": true,
+ "skipped_total": 70,
+ "skipped_nonfinite_loss_total": 0,
+ "skipped_nonfinite_grad_total": 70,
+ "train_raw_nonfinite_max": 0.0,
+ "val_raw_nonfinite_max": 0.0,
+ "per_model_skipped": {
+  "fno_v0_raw_channels": 0,
+  "k_only": 24,
+  "v0_raw_channels": 16,
+  "v1_factorized_levels": 15,
+  "v4_joint_continuous": 15
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "n_files": 810,
+  "n_unique_k_hashes": 136,
+  "expected_files_per_exact_k": [
+    1,
+    5,
+    6,
+    7
+  ],
+  "n_exact_k_groups_crossing_historical_splits": 110,
+  "n_exact_k_groups_spanning_all_three_historical_splits": 55,
+  "historical_split_has_exact_k_leakage": true,
+  "closest_distinct_pair_normalized_rmse": 0.1474302323890499,
+  "closest_distinct_pair_pearson_correlation": 0.9897309387716051,
+  "hash_definition": "SHA-256 of contiguous float32 K-array bytes in stored orientation",
+  "near_duplicate_definition": "normalized RMSE divided by the larger field SD; Pearson correlation is also reported"
+}

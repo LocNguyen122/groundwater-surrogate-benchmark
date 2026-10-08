@@ -1,0 +1,17 @@
+sample_key,param_folder,realization,partition,flagged_days,max_concentration,reason
+param_000/real_002.npz,param_000,real_002,val,365,21157.1,max_C_gt_10_x_C0
+param_017/real_005.npz,param_017,real_005,train,365,9.48634e+09,max_C_gt_10_x_C0
+param_027/real_001.npz,param_027,real_001,train,180,2.99135e+07,max_C_gt_10_x_C0
+param_033/real_003.npz,param_033,real_003,test,300,30931.2,max_C_gt_10_x_C0
+param_047/real_005.npz,param_047,real_005,train,180,19.6499,max_C_gt_10_x_C0
+param_060/real_004.npz,param_060,real_004,train,300,95.2397,max_C_gt_10_x_C0
+param_062/real_005.npz,param_062,real_005,train,300 365,388388,max_C_gt_10_x_C0
+param_063/real_001.npz,param_063,real_001,train,120,294.611,max_C_gt_10_x_C0
+param_068/real_001.npz,param_068,real_001,train,300,300773,max_C_gt_10_x_C0
+param_077/real_002.npz,param_077,real_002,train,210,2.52183e+09,max_C_gt_10_x_C0
+param_084/real_005.npz,param_084,real_005,train,180,338.387,max_C_gt_10_x_C0
+param_105/real_004.npz,param_105,real_004,train,120,192.879,max_C_gt_10_x_C0
+param_114/real_003.npz,param_114,real_003,test,240,8.33631e+08,max_C_gt_10_x_C0
+param_117/real_003.npz,param_117,real_003,test,75,61.4989,max_C_gt_10_x_C0
+param_122/real_004.npz,param_122,real_004,test,100,289444,max_C_gt_10_x_C0
+param_149/real_001.npz,param_149,real_001,train,240,2.18611e+06,max_C_gt_10_x_C0

@@ -1,0 +1,9 @@
+family,params,params_millions,checkpoint,state_key
+CTA-UNet+FFL,26078774,26.08,temp/cta_param_best.pt,model
+MS-TMO-UNet,26070873,26.07,runs/ms_tmo_baseline/seed0/best.pt,model
+CNN/U-Net,8563545,8.56,runs/cnn_baseline/seed0/best.pt,model
+TMO-UNet+TL,8563545,8.56,runs/tmo_unet_tl_baseline/seed3/best.pt,model
+Pix2Pix (generator),40020121,40.02,runs/pix2pix_baseline/seed0/best.pt,gen
+FNO,6576665,6.58,runs/fno_baseline/seed0/best.pt,model
+DeepONet,5884633,5.88,runs/deeponet_baseline/seed0/best.pt,model
+Time-Cond. U-Net,7833986,7.83,runs/timecond_baseline/seed3/best.pt,model

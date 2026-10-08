@@ -1,0 +1,8 @@
+{
+ "n_fields": 134,
+ "max_abs_r_vs_equal_covariance_master": 0.1987958304301735,
+ "max_abs_r_vs_any_master": 0.20344433316922103,
+ "median_of_per_field_max_vs_any_master": 0.07716192005288885,
+ "n_master_fields_compared": 135,
+ "pool_T_fields_with_twin_inside_pool": 60
+}

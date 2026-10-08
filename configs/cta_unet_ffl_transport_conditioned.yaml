@@ -1,0 +1,35 @@
+family: cta_unet_ffl_transport_conditioned
+model: CTAUNet
+loss: focal_frequency
+input_setting: K + alpha_L + alpha_T/alpha_L
+condition_params:
+  - alpha_L
+  - alpha_T_ratio
+alpha_L_transform: log10
+alpha_T_ratio_transform: log10
+input_channels: 3
+output_channels: 25
+split_json: splits/param_split_fixed.json
+stats_json: configs/train_stats.json
+trainer: src.transport_surrogates.baselines.train.train_cta_unet_ffl_transport_conditioned
+out_root: runs/cta_unet_ffl_transport_conditioned
+seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+epochs: 200
+batch_size: 16
+patch_size: 320
+lr: 1.0e-4
+optimizer: AdamW
+weight_decay: 0.0
+schedule: CosineAnnealingLR
+amp: true
+t_embed_dim: 25
+t_heads: 5
+pool_stride: 4
+alpha: 3.0
+t_weight_mode: quad
+t_w_min: 0.5
+t_w_max: 1.5
+lambda_temp: 0.05
+lambda_ffl: 0.01
+ffl_alpha: 1.0
+submit_now: "NO"

@@ -1,0 +1,46 @@
+{
+ "cell_true_geology": [
+  0.1,
+  50.0,
+  1.0
+ ],
+ "master_case": "param_020/real_001",
+ "pool_case": "param_20056/real_001",
+ "checkpoint": "runs_v5_confirmatory_20260715_cta_ffl_matched_seed0.pt",
+ "checkpoint_sha256": "29736521efa502fcde901fc6d2675e77626843821c5f83143581ecc2f2b7142e",
+ "stats_sha256": "5568fd4136211dd712811a19df928ba4a5922e1c1351187c48e613eea9574536",
+ "case_file_sha256": {
+  "original test field (twin in training)": "81f261f11638c6a601c3d9d0b71fbd8a87130749031d61bab3c3da6ba45688a7",
+  "independent Pool T field": "1c64bfc235939931136204e29e8a57c967185c97cb06d7101aae8428bc772e98"
+ },
+ "day": 365,
+ "display_range_log10": [
+  -8.0,
+  0.0
+ ],
+ "outline_log10": -3.0,
+ "domain": "full 600x400, no crop",
+ "orientation": "vertical mirror of stored array",
+ "ssim_day365_global": {
+  "original test field (twin in training)": {
+   "surrogate": 0.9792966719530679,
+   "setting_mean": 0.9465147395810847
+  },
+  "independent Pool T field": {
+   "surrogate": 0.6679637657936855,
+   "setting_mean": 0.9387435558032676
+  }
+ },
+ "case_rank_plume_ssim": {
+  "original": {
+   "case_plume_ssim": 0.9294004301640147,
+   "percentile": 31.60919540229885,
+   "n_cases": 174
+  },
+  "pool_T": {
+   "case_plume_ssim": 0.5141650986244177,
+   "percentile": 54.15617128463476,
+   "n_cases": 794
+  }
+ }
+}

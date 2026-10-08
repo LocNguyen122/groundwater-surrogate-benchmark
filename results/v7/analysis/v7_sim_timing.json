@@ -1,0 +1,9 @@
+{
+ "n_runs": 779,
+ "median_s": 14.46,
+ "q25_s": 12.42,
+ "q75_s": 17.2,
+ "modflow_median_s": 2.61,
+ "mt3d_median_s": 11.5,
+ "conditions": "one CPU core per run, IDLE priority, 18 concurrent runs on a 20-core workstation; full 365-day run (stage T9)"
+}

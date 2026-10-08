@@ -1,0 +1,9 @@
+configuration,parameters,added_vs_cta_k_only
+cta_unet_k_only,26078774,0
+cta_unet_v0_raw_channels,26079926,1152
+ms_tmo_v0_raw_channels,26072025,-6749
+fno_v0_raw_channels,6576921,-19501853
+cta_unet_v1_factorized_levels,26083582,4808
+cta_unet_v2_joint_embedding,26083638,4864
+cta_unet_v3_factorized_continuous,26084198,5424
+cta_unet_v4_joint_continuous,26084166,5392

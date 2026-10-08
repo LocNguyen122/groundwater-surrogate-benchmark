@@ -1,0 +1,7 @@
+sample_key,param_id,param_folder,realization,reason
+param_22029/real_001.npz,22029,param_22029,real_001,fresh_seed_T2_D8
+param_22030/real_003.npz,22030,param_22030,real_003,fresh_seed_T2_D8
+param_22033/real_005.npz,22033,param_22033,real_005,fresh_seed_T2_D8
+param_22035/real_005.npz,22035,param_22035,real_005,fresh_seed_T2_D8
+param_22105/real_002.npz,22105,param_22105,real_002,fresh_seed_T2_D8
+param_22142/real_002.npz,22142,param_22142,real_002,fresh_seed_T2_D8

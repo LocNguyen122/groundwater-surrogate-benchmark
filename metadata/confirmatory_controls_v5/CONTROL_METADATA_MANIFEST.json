@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "seed": 20260715,
+  "matched": "Authoritative transport coefficients.",
+  "permuted": "Fixed cyclic derangement within each geological factor cell; transport marginals are preserved and no row keeps its original coefficient pair.",
+  "constant_placebo": "Two constant channels. After training-split normalization both channels are identically zero.",
+  "independent_nuisance": "Fixed continuous nuisance values sampled independently of all simulation factors in transformed space.",
+  "files": {
+    "matched": {
+      "path": "metadata/confirmatory_controls_v5/matched_transport_metadata.csv",
+      "sha256": "e4204debc3279e85585bc1c4fd2dba57daf850fbab3178d6bfc1e67924fc89b2"
+    },
+    "permuted": {
+      "path": "metadata/confirmatory_controls_v5/permuted_transport_metadata.csv",
+      "sha256": "aff4dec45dbbc2721dbd48c4905c2e0d1bc9d199cd770b3c3cd20efb1d51c0db"
+    },
+    "constant_placebo": {
+      "path": "metadata/confirmatory_controls_v5/constant_placebo_metadata.csv",
+      "sha256": "fb085b205297409d127647b64addb6b9b5c3bf125023df1ad1c2dfcca878a70f"
+    },
+    "independent_nuisance": {
+      "path": "metadata/confirmatory_controls_v5/independent_nuisance_metadata.csv",
+      "sha256": "3bf1febbf97ebd9248dcc507cac338cf07e86abe0fa1baf32f356fc4537f8d1f"
+    }
+  }
+}

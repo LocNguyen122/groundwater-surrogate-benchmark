@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "arrays": {
+    "3481420": {
+      "COMPLETED": 250,
+      "RUNNING": 0,
+      "PENDING": 0
+    },
+    "3485378": {
+      "COMPLETED": 250,
+      "RUNNING": 0,
+      "PENDING": 0
+    }
+  },
+  "failures": [],
+  "task_manifest_sha256": "a8c1b4c7c80abb73d0af6eed6b782c2de9af8779d270476a8e926f2223f349ca",
+  "remote_artifacts_verified": 1000,
+  "public_csvs_verified": {
+    "best": 250,
+    "last": 250
+  },
+  "cases_per_csv": 794,
+  "checkpoint_existence_verified_at_retrieval": true,
+  "scope": "Terminal scoring and retrieval, not a training or submission certificate",
+  "original_jsons": "Validated and checksum-verified in the private lightweight mirror; not redistributed",
+  "artifact_manifest_sha256": "eb1ec6cafa04eecde0e84f3604efcde30269a55fafc9eb9f796966597a669e1c"
+}

@@ -1,0 +1,5 @@
+figure,param_folder,realization,days,k_sha256,display_orientation,notes
+fig_dataset_illustration.pdf,param_000,real_001,1;2;3;90;100;300;365,46ff437449a90420509dc1be8d67ff59e87820f211169771b0725e6fcc0da8d6,vertical flip from stored learning array to physical model grid,restricted raw field; source path omitted from public provenance
+fig_dataset_illustration.pdf,param_001,real_001,1;2;3;90;100;300;365,46ff437449a90420509dc1be8d67ff59e87820f211169771b0725e6fcc0da8d6,vertical flip from stored learning array to physical model grid,restricted raw field; source path omitted from public provenance
+fig_dataset_illustration.pdf,param_160,real_001,1;2;3;90;100;300;365,26fd2aea6584f2ba09545420fbaf2b932a5133132c34e9abf03fbdfed1fb02d8,vertical flip from stored learning array to physical model grid,restricted raw field; source path omitted from public provenance
+fig_dataset_illustration.pdf,param_161,real_001,1;2;3;90;100;300;365,26fd2aea6584f2ba09545420fbaf2b932a5133132c34e9abf03fbdfed1fb02d8,vertical flip from stored learning array to physical model grid,restricted raw field; source path omitted from public provenance

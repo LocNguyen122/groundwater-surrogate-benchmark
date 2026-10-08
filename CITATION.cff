@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+type: software
+message: "Research-code review snapshot. The associated manuscript is unpublished; no article DOI is assigned."
+title: "Groundwater surrogate benchmark and evaluation audit"
+version: "0.1.0-dev"
+repository-code: "https://github.com/LocNguyen122/groundwater-surrogate-benchmark"
+authors:
+  - family-names: Nguyen
+    given-names: Loc K.
+    orcid: "https://orcid.org/0000-0003-0561-6659"
+  - family-names: Kenny
+    given-names: Allanah
+  - family-names: Sarris
+    given-names: Theo S.
+  - family-names: Nguyen
+    given-names: Binh P.
+abstract: "Code and permitted summary measurements for a groundwater-surrogate evaluation audit. Authors are retained from the source citation metadata; no new contributor roles are inferred."

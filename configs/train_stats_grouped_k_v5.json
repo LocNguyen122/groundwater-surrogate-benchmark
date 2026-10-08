@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "split": "splits/param_split_grouped_k_v5.json",
+  "exclusion_manifest": "metadata/k_integrity_exclusions_v5.csv",
+  "n_train_params": 108,
+  "n_train_files": 540,
+  "n_values": 129600000,
+  "file_glob": "*.npz",
+  "use_logK": true,
+  "eps_k": 1e-06,
+  "k_mean": 6.858571610121196,
+  "k_std": 0.8994727579535243,
+  "concentration_statistics": "not used; concentration is transformed analytically with eps_c=1e-12"
+}

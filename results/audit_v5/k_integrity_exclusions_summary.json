@@ -1,0 +1,40 @@
+{
+  "rule": "Exclude every file in a geological-factor/realization group unless all six transport configurations share one exact K hash.",
+  "n_affected_groups": 2,
+  "n_excluded_files": 12,
+  "n_retained_files": 798,
+  "affected_groups": [
+    {
+      "sigma2Y": "1.0",
+      "correlation_length": "50.0",
+      "anisotropy": "10.0",
+      "realization": "real_004",
+      "n_files": 6,
+      "n_unique_k_hashes": 2,
+      "param_ids": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ]
+    },
+    {
+      "sigma2Y": "2.0",
+      "correlation_length": "500.0",
+      "anisotropy": "10.0",
+      "realization": "real_002",
+      "n_files": 6,
+      "n_unique_k_hashes": 2,
+      "param_ids": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+ "manifest_rng_seed": 20261003,
+ "pilot_cell": {
+  "sigma2Y": 1.0,
+  "lambda": 50,
+  "anisotropy": 5
+ },
+ "pools": {
+  "P": {
+   "param_id_offset": 19000,
+   "realizations_per_cell": 2,
+   "cells": 1,
+   "sims": 12
+  },
+  "T": {
+   "param_id_offset": 20000,
+   "realizations_per_cell": 5,
+   "cells": 27,
+   "sims": 810
+  },
+  "R": {
+   "param_id_offset": 21000,
+   "realizations_per_cell": 10,
+   "cells": 27,
+   "sims": 1620
+  }
+ },
+ "n_seeds": 55,
+ "forbidden_seed_absent": true,
+ "sha256": {
+  "seed_manifest.csv": "3087a0570f6eec4d3a1e65b550e4342e36f4b3e825bcdad03de4985c1a20d3aa",
+  "param_registry_fresh_seed.csv": "3bc7532f491f76b84732d99410bddd2b948863124ab0889e6eb14b9756a5f587"
+ }
+}

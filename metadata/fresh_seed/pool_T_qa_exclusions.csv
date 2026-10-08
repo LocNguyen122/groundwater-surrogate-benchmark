@@ -1,0 +1,17 @@
+sample_key,param_id,param_folder,realization,reason
+param_20020/real_005.npz,20020,param_20020,real_005,fresh_seed_qa:no_blowup
+param_20031/real_004.npz,20031,param_20031,real_004,fresh_seed_qa:no_blowup
+param_20033/real_001.npz,20033,param_20033,real_001,fresh_seed_qa:no_blowup
+param_20039/real_005.npz,20039,param_20039,real_005,fresh_seed_qa:no_blowup
+param_20059/real_005.npz,20059,param_20059,real_005,fresh_seed_qa:no_blowup
+param_20065/real_001.npz,20065,param_20065,real_001,fresh_seed_qa:complete+no_blowup+size_ok
+param_20071/real_003.npz,20071,param_20071,real_003,fresh_seed_qa:no_blowup
+param_20085/real_002.npz,20085,param_20085,real_002,fresh_seed_qa:no_blowup
+param_20086/real_002.npz,20086,param_20086,real_002,fresh_seed_qa:no_blowup
+param_20119/real_003.npz,20119,param_20119,real_003,fresh_seed_qa:no_blowup
+param_20126/real_005.npz,20126,param_20126,real_005,fresh_seed_qa:no_blowup
+param_20132/real_001.npz,20132,param_20132,real_001,fresh_seed_qa:complete+no_blowup+size_ok
+param_20135/real_005.npz,20135,param_20135,real_005,fresh_seed_qa:no_blowup
+param_20141/real_005.npz,20141,param_20141,real_005,fresh_seed_qa:complete+no_blowup+size_ok
+param_20155/real_001.npz,20155,param_20155,real_001,fresh_seed_qa:complete+no_blowup+size_ok
+param_20156/real_004.npz,20156,param_20156,real_004,fresh_seed_qa:size_ok

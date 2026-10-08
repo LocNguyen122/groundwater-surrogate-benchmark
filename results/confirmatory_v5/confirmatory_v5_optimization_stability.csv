@@ -1,0 +1,7 @@
+family,display_name,n_seeds,scheduled_batches,skipped_batches,skip_rate_percent,affected_seeds,epochs_with_skips,last_skip_epoch
+cta_ffl_k_only,CTA-UNet+FFL K-only,10,66000,55,0.08333333333333333,10,45,198
+cta_ffl_matched,CTA-UNet+FFL matched codes,10,66000,31,0.04696969696969697,10,23,126
+cta_ffl_permuted,CTA-UNet+FFL cyclic relabeling,10,66000,30,0.045454545454545456,10,22,74
+cta_ffl_constant_placebo,CTA-UNet+FFL constant placebo,10,66000,58,0.08787878787878788,10,50,198
+cta_ffl_independent_nuisance,CTA-UNet+FFL nuisance placebo,10,66000,48,0.07272727272727272,10,40,162
+ms_tmo_matched,MS-TMO-UNet matched codes,10,66000,2,0.0030303030303030303,2,2,15

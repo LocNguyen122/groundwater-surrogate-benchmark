@@ -1,0 +1,99 @@
+{
+  "grouping_key": [
+    "sigma2Y",
+    "correlation_length",
+    "anisotropy"
+  ],
+  "splits": {
+    "train": {
+      "n_base_k_groups": 18,
+      "n_param_configurations": 108,
+      "n_field_files_expected": 540,
+      "base_factor_counts": {
+        "sigma2Y": {
+          "0.1": 6,
+          "1.0": 6,
+          "2.0": 6
+        },
+        "correlation_length": {
+          "20.0": 6,
+          "50.0": 6,
+          "500.0": 6
+        },
+        "anisotropy": {
+          "1.0": 6,
+          "10.0": 6,
+          "5.0": 6
+        }
+      },
+      "transport_combination_counts": {
+        "0.62|0.1": 18,
+        "0.62|1.0": 18,
+        "6.2|0.1": 18,
+        "6.2|1.0": 18,
+        "62.0|0.1": 18,
+        "62.0|1.0": 18
+      }
+    },
+    "val": {
+      "n_base_k_groups": 3,
+      "n_param_configurations": 18,
+      "n_field_files_expected": 90,
+      "base_factor_counts": {
+        "sigma2Y": {
+          "0.1": 1,
+          "1.0": 1,
+          "2.0": 1
+        },
+        "correlation_length": {
+          "20.0": 1,
+          "50.0": 1,
+          "500.0": 1
+        },
+        "anisotropy": {
+          "1.0": 1,
+          "10.0": 1,
+          "5.0": 1
+        }
+      },
+      "transport_combination_counts": {
+        "0.62|0.1": 3,
+        "0.62|1.0": 3,
+        "6.2|0.1": 3,
+        "6.2|1.0": 3,
+        "62.0|0.1": 3,
+        "62.0|1.0": 3
+      }
+    },
+    "test": {
+      "n_base_k_groups": 6,
+      "n_param_configurations": 36,
+      "n_field_files_expected": 180,
+      "base_factor_counts": {
+        "sigma2Y": {
+          "0.1": 2,
+          "1.0": 2,
+          "2.0": 2
+        },
+        "correlation_length": {
+          "20.0": 2,
+          "50.0": 2,
+          "500.0": 2
+        },
+        "anisotropy": {
+          "1.0": 2,
+          "10.0": 2,
+          "5.0": 2
+        }
+      },
+      "transport_combination_counts": {
+        "0.62|0.1": 6,
+        "0.62|1.0": 6,
+        "6.2|0.1": 6,
+        "6.2|1.0": 6,
+        "62.0|0.1": 6,
+        "62.0|1.0": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+condition,plume_ssim_mean,plume_ssim_sd,n,sd_definition,interpretation
+matched transport channels,0.9324,0.0051,10,sample,structured channels with sample-specific assignment
+shuffled transport channels,0.9326,0.0046,10,sample,structured channels with permuted assignment
+K only,0.7648,0.0037,9,sample,one-channel reference
+constant placebo channels,0.7629,0.0072,10,sample,two constant channels with zero per-config information and zero marginal spread
+independent noise channels,0.685472,0.024372,10,sample,information-free two-channel placebo

@@ -1,0 +1,120 @@
+{
+ "files": 810,
+ "flagged": 16,
+ "threshold": 10.0,
+ "hits": [
+  {
+   "file": "param_000/real_002.npz",
+   "snapshots": [
+    24
+   ],
+   "max_c": 21157.1015625
+  },
+  {
+   "file": "param_017/real_005.npz",
+   "snapshots": [
+    24
+   ],
+   "max_c": 9486338048.0
+  },
+  {
+   "file": "param_027/real_001.npz",
+   "snapshots": [
+    19
+   ],
+   "max_c": 29913494.0
+  },
+  {
+   "file": "param_033/real_003.npz",
+   "snapshots": [
+    23
+   ],
+   "max_c": 30931.177734375
+  },
+  {
+   "file": "param_047/real_005.npz",
+   "snapshots": [
+    19
+   ],
+   "max_c": 19.649917602539062
+  },
+  {
+   "file": "param_060/real_004.npz",
+   "snapshots": [
+    23
+   ],
+   "max_c": 95.23971557617188
+  },
+  {
+   "file": "param_062/real_005.npz",
+   "snapshots": [
+    23,
+    24
+   ],
+   "max_c": 388387.71875
+  },
+  {
+   "file": "param_063/real_001.npz",
+   "snapshots": [
+    17
+   ],
+   "max_c": 294.61102294921875
+  },
+  {
+   "file": "param_068/real_001.npz",
+   "snapshots": [
+    23
+   ],
+   "max_c": 300773.0625
+  },
+  {
+   "file": "param_077/real_002.npz",
+   "snapshots": [
+    20
+   ],
+   "max_c": 2521830912.0
+  },
+  {
+   "file": "param_084/real_005.npz",
+   "snapshots": [
+    19
+   ],
+   "max_c": 338.38739013671875
+  },
+  {
+   "file": "param_105/real_004.npz",
+   "snapshots": [
+    17
+   ],
+   "max_c": 192.87936401367188
+  },
+  {
+   "file": "param_114/real_003.npz",
+   "snapshots": [
+    21
+   ],
+   "max_c": 833631168.0
+  },
+  {
+   "file": "param_117/real_003.npz",
+   "snapshots": [
+    14
+   ],
+   "max_c": 61.498905181884766
+  },
+  {
+   "file": "param_122/real_004.npz",
+   "snapshots": [
+    16
+   ],
+   "max_c": 289443.8125
+  },
+  {
+   "file": "param_149/real_001.npz",
+   "snapshots": [
+    21
+   ],
+   "max_c": 2186106.75
+  }
+ ]
+}

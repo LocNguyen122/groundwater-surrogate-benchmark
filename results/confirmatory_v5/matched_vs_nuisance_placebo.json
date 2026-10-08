@@ -1,0 +1,49 @@
+{
+  "left": "CTA matched",
+  "right": "CTA nuisance placebo",
+  "resampling_unit": "training seed and geological-factor-by-realization K block",
+  "transport_settings_within_block": "averaged before bootstrap",
+  "rng_seed": 20260715,
+  "results": [
+    {
+      "metric": "global_ssim",
+      "direction_adjusted_difference": "CTA matched better when positive",
+      "mean_difference": 0.12833396259676258,
+      "bootstrap_ci95_lower": 0.11683202354455723,
+      "bootstrap_ci95_upper": 0.14098691184354137,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "plume_ssim",
+      "direction_adjusted_difference": "CTA matched better when positive",
+      "mean_difference": 0.2635994612436319,
+      "bootstrap_ci95_lower": 0.249282854195915,
+      "bootstrap_ci95_upper": 0.27821517896709946,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "ice_per_timestep",
+      "direction_adjusted_difference": "CTA matched better when positive",
+      "mean_difference": 927.1843045408316,
+      "bootstrap_ci95_lower": 746.6630984770624,
+      "bootstrap_ci95_upper": 1124.177832277435,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    },
+    {
+      "metric": "concentration_mae",
+      "direction_adjusted_difference": "CTA matched better when positive",
+      "mean_difference": 0.008457203693899252,
+      "bootstrap_ci95_lower": 0.007317078745008147,
+      "bootstrap_ci95_upper": 0.009871237338285167,
+      "n_seeds": 10,
+      "n_k_realization_blocks": 29,
+      "replicates": 10000
+    }
+  ]
+}

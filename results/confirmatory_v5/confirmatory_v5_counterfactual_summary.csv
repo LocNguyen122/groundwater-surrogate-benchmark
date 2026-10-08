@@ -1,0 +1,5 @@
+metric,direction,mean_correct_advantage,sd_correct_advantage,n_seeds,n_cases_per_seed,wrong_codes_per_case
+global_ssim,positive favors correct code,0.09485289490317138,0.000353751415495062,10,174,5
+plume_ssim,positive favors correct code,0.21937171519857848,0.001431968474861486,10,174,5
+ice_per_timestep,positive favors correct code,0.1450608916580677,0.3146154131461055,10,174,5
+concentration_mae,positive favors correct code,0.0036443753067146646,6.036491461083216e-05,10,174,5

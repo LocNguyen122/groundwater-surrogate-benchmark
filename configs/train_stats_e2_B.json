@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "split": "splits/e2_B_grouped_parent.json",
+  "exclusion_manifest": "metadata/fresh_seed/e2_B_exclusions.csv",
+  "n_train_params": 108,
+  "n_train_files": 540,
+  "n_values": 129600000,
+  "file_glob": "*.npz",
+  "use_logK": true,
+  "eps_k": 1e-06,
+  "k_mean": 6.857103202609235,
+  "k_std": 0.907072178919232,
+  "concentration_statistics": "not used; concentration is transformed analytically with eps_c=1e-12"
+}

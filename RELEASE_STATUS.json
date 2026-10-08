@@ -1,0 +1,19 @@
+{
+  "software_snapshot": "0.1.0-dev",
+  "manuscript_source": "v7 review draft, 2026-10-08",
+  "visibility_required": "private",
+  "final_paper_release": false,
+  "article_doi": null,
+  "open_source_license": null,
+  "preferred_original_code_license": "MIT, subject to rights-holder approval",
+  "selected_checkpoint_scoring": "complete and verified",
+  "final_checkpoint_scoring": "complete and verified",
+  "restricted_asset_reproduction": "not tested; assets excluded",
+  "remaining_gates": [
+    "copyright ownership and license authorization",
+    "coauthor manuscript approval",
+    "confirmed restricted-data access terms",
+    "venue fit and data-policy decision",
+    "separate approval before public visibility or formal release"
+  ]
+}

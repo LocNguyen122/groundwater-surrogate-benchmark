@@ -1,0 +1,7 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-image==0.24.0
+matplotlib==3.9.4
+PyYAML==6.0.2
+# Install torch==2.6.0 from the CPU-only index as documented, not from a CUDA index.

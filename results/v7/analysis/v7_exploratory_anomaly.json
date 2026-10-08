@@ -1,0 +1,25 @@
+{
+ "definition": "per-case corr(pred - m, true - m), bounded log10, all 25 times, bounding box of true support (C>1e-8 any time, pad 8); m = setting mean of the model's own training set; exploratory, seed 0, best.pt",
+ "source_script": "code_patches/exploratory_anomaly_v7.py",
+ "A_original_test": {
+  "n": 174,
+  "median": 0.9476437683873276,
+  "q25": 0.9068591041186567,
+  "q75": 0.964966442655556,
+  "frac_above_0p5": 0.9942528735632183
+ },
+ "A_poolT": {
+  "n": 794,
+  "median": 0.10715639015264711,
+  "q25": -0.0373566587546424,
+  "q75": 0.22822723371668466,
+  "frac_above_0p5": 0.003778337531486146
+ },
+ "B_poolT": {
+  "n": 794,
+  "median": 0.0186679784886817,
+  "q25": -0.3181538335171374,
+  "q75": 0.17163734904179828,
+  "frac_above_0p5": 0.0012594458438287153
+ }
+}

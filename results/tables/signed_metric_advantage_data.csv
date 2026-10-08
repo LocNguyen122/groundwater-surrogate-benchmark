@@ -1,0 +1,12 @@
+metric,label,preferred_direction,n_paired,mean_diff_cta_minus_mstmo,d_z_cta_minus_mstmo,signed_advantage_d_z,ci95_low_raw_diff,ci95_high_raw_diff,clear_at_alpha_0.05,favoured_after_direction,note
+global,Global SSIM,higher,10,-0.00746,-1.08,-1.08,-0.01239,-0.00253,YES,MS-TMO-UNet TC,
+plume,Plume SSIM,higher,10,0.00312,0.53,0.53,-0.00107,0.00732,NO,CTA-UNet+FFL TC,n.s.; raw 95% CI crosses zero
+mass,Mass error,lower,10,55.1508,1.24,-1.24,23.2361,87.06549,YES,MS-TMO-UNet TC,
+l1,Concentration MAE,lower,10,0.00024,1.01,-1.01,7e-05,0.00041,YES,MS-TMO-UNet TC,
+iou_mean,IoU,higher,10,0.02363,4.83,4.83,0.02013,0.02713,YES,CTA-UNet+FFL TC,
+dice_mean,Dice,higher,10,0.01475,4.52,4.52,0.01241,0.01708,YES,CTA-UNet+FFL TC,
+fp_area_frac_mean,FP plume area frac.,lower,10,0.00055,1.55,-1.55,0.0003,0.00081,YES,MS-TMO-UNet TC,
+fn_area_frac_mean,FN plume area frac.,lower,10,-0.0006,-2.1,2.1,-0.0008,-0.00039,YES,CTA-UNet+FFL TC,
+abs_plume_area_rel_err_mean,Plume area rel. err.,lower,10,-0.048,-4.99,4.99,-0.05489,-0.04112,YES,CTA-UNet+FFL TC,
+centroid_err_mean_px,Centroid error,lower,10,0.19578,0.72,-0.72,0.00063,0.39092,YES,MS-TMO-UNet TC,
+mass_abs_mean,Mass abs. per timestep,lower,10,54.80921,1.26,-1.26,23.60529,86.01313,YES,MS-TMO-UNet TC,

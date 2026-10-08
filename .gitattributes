@@ -1,0 +1,2 @@
+# Preserve exact source bytes across platforms, especially certified CSV/JSON checksums.
+* -text

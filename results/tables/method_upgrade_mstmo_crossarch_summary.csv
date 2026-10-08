@@ -1,0 +1,13 @@
+comparison,split,metric,n_seeds,mean,std
+factorized_absolute,grouped_standard,global_ssim,5,0.985683777323372,0.0003449903004863431
+factorized_absolute,grouped_standard,plume_ssim,5,0.9396341542411153,0.0014917749151046212
+factorized_absolute,compositional,global_ssim,5,0.9598477055928719,0.010747205820592416
+factorized_absolute,compositional,plume_ssim,5,0.8834129923656364,0.02426005125657232
+factorized_minus_raw_matched_grouped,grouped_standard,global_ssim,5,0.0007194636833720125,0.00039790835163983003
+factorized_minus_raw_matched_grouped,grouped_standard,plume_ssim,5,0.0023539819811152496,0.001944542988920507
+raw_matched_baseline,grouped_standard,global_ssim,5,0.98496431364,0.0003170354995733842
+raw_matched_baseline,grouped_standard,plume_ssim,5,0.93728017226,0.0014541985523297157
+raw_loco_control,compositional,global_ssim,5,0.8970415997222659,0.02422008017754933
+raw_loco_control,compositional,plume_ssim,5,0.7586025639484981,0.05432939924672099
+factorized_minus_raw_compositional,compositional,global_ssim,5,0.06280610587060591,
+factorized_minus_raw_compositional,compositional,plume_ssim,5,0.12481042841713835,

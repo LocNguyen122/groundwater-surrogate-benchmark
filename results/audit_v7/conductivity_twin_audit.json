@@ -1,0 +1,27 @@
+{
+  "statistic": "Pearson r of centred natural-log K over the full grid; distinct arrays by SHA-256",
+  "split": "splits/param_split_grouped_k_v5.json",
+  "exclusions": "metadata/k_integrity_exclusions_v5.csv",
+  "n_distinct_train_fields": 90,
+  "n_distinct_test_fields": 29,
+  "grouped": {
+    "min_over_test_of_max_abs_r": 0.9999997193663869,
+    "median_over_test_of_max_abs_r": 0.9999998487459023,
+    "n_test_fields_with_twin_r_ge_0p999": 29
+  },
+  "realization_disjoint": {
+    "train_realizations": [
+      1,
+      2,
+      3
+    ],
+    "eval_realizations": [
+      4,
+      5
+    ],
+    "n_train_fields": 54,
+    "n_eval_fields": 11,
+    "max_abs_r": 0.0868656509172986,
+    "median_of_per_field_max": 0.046737217427559465
+  }
+}

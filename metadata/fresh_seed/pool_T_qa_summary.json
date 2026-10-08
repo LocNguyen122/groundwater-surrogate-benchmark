@@ -1,0 +1,3842 @@
+{
+ "pool": "T",
+ "runs_expected": 810,
+ "runs_pass": 345,
+ "pass_fraction": 0.42592592592592593,
+ "complete": 806,
+ "no_blowup": 795,
+ "k_consistent": 810,
+ "size_ok": 805,
+ "independent": 348,
+ "blowup_runs": [
+  "param_20020/real_005:24",
+  "param_20031/real_004:19",
+  "param_20033/real_001:24",
+  "param_20039/real_005:23",
+  "param_20059/real_005:24",
+  "param_20071/real_003:24",
+  "param_20085/real_002:23",
+  "param_20086/real_002:21",
+  "param_20119/real_003:21",
+  "param_20126/real_005:21",
+  "param_20135/real_005:21"
+ ],
+ "failed_runs": [
+  {
+   "run": "param_20006/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20006/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20006/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20006/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20006/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20007/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20007/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20007/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20007/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20007/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20008/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20008/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20008/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20008/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20008/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20009/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20009/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20009/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20009/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20009/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20010/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20010/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20010/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20010/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20010/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20011/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20011/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20011/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20011/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20011/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20018/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20018/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20018/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20018/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20018/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20019/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20019/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20019/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20019/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20019/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20020/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20020/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20020/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20020/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20020/real_005",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20021/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20021/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20021/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20021/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20021/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20022/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20022/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20022/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20022/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20022/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20023/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20023/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20023/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20023/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20023/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20024/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20024/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20024/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20024/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20024/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20025/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20025/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20025/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20025/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20025/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20026/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20026/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20026/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20026/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20026/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20027/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20027/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20027/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20027/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20027/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20028/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20028/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20028/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20028/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20028/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20029/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20029/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20029/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20029/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20029/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20030/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20030/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20030/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20030/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20030/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20031/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20031/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20031/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20031/real_004",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20031/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20032/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20032/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20032/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20032/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20032/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20033/real_001",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20033/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20033/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20033/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20033/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20034/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20034/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20034/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20034/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20034/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20035/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20035/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20035/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20035/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20035/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20039/real_005",
+   "reasons": [
+    "no_blowup"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20054/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20054/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20054/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20054/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20054/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20055/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20055/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20055/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20055/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20055/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20056/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20056/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20056/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20056/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20056/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20057/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20057/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20057/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20057/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20057/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20058/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20058/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20058/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20058/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20058/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20059/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20059/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20059/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20059/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20059/real_005",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20060/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20060/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20060/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20060/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20060/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20061/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20061/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20061/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20061/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20061/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20062/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20062/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20062/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20062/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20062/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20063/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20063/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20063/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20063/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20063/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20064/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20064/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20064/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20064/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20064/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20065/real_001",
+   "reasons": [
+    "complete",
+    "no_blowup",
+    "size_ok",
+    "independent"
+   ],
+   "failed_stages": "T9",
+   "merge_status": "MISSING_CANONICAL_TIMES:[270, 300]"
+  },
+  {
+   "run": "param_20065/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20065/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20065/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20065/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20071/real_003",
+   "reasons": [
+    "no_blowup"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20072/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20072/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20072/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20072/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20072/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20073/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20073/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20073/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20073/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20073/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20074/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20074/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20074/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20074/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20074/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20075/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20075/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20075/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20075/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20075/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20076/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20076/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20076/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20076/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20076/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20077/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20077/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20077/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20077/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20077/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20078/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20079/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20080/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20081/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20082/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20083/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20084/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20085/real_002",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20086/real_002",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20087/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20088/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20089/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20096/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20097/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20098/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20099/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20100/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20101/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20102/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20102/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20102/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20102/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20102/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20103/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20103/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20103/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20103/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20103/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20104/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20104/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20104/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20104/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20104/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20105/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20105/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20105/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20105/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20105/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20106/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20106/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20106/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20106/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20106/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20107/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20107/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20107/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20107/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20107/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20108/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20108/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20108/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20108/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20108/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20109/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20109/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20109/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20109/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20109/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20110/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20110/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20110/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20110/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20110/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20111/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20111/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20111/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20111/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20111/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20112/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20112/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20112/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20112/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20112/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20113/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20113/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20113/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20113/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20113/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20114/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20114/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20114/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20114/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20114/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20115/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20115/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20115/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20115/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20115/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20116/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20116/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20116/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20116/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20116/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20117/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20117/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20117/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20117/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20117/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20118/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20118/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20118/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20118/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20118/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20119/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20119/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20119/real_003",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20119/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20119/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20120/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20120/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20121/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20121/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20122/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20122/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20123/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20123/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20124/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20124/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20125/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20125/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20126/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20126/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20126/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20126/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20126/real_005",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20127/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20127/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20127/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20127/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20127/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20128/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20128/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20128/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20128/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20128/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20129/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20129/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20129/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20129/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20129/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20130/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20130/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20130/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20130/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20130/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20131/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20131/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20131/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20131/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20131/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20132/real_001",
+   "reasons": [
+    "complete",
+    "no_blowup",
+    "size_ok",
+    "independent"
+   ],
+   "failed_stages": "T9",
+   "merge_status": "MISSING_CANONICAL_TIMES:[270, 300]"
+  },
+  {
+   "run": "param_20132/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20132/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20132/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20132/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20133/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20133/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20133/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20133/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20133/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20134/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20134/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20134/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20134/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20134/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20135/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20135/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20135/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20135/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20135/real_005",
+   "reasons": [
+    "no_blowup",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20136/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20136/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20136/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20136/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20136/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20137/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20137/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20137/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20137/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20137/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20138/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20138/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20138/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20138/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20138/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20139/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20139/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20139/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20139/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20139/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20140/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20140/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20140/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20140/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20140/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20141/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20141/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20141/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20141/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20141/real_005",
+   "reasons": [
+    "complete",
+    "no_blowup",
+    "size_ok",
+    "independent"
+   ],
+   "failed_stages": "T9",
+   "merge_status": "MISSING_CANONICAL_TIMES:[270, 300]"
+  },
+  {
+   "run": "param_20142/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20142/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20142/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20142/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20142/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20143/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20143/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20143/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20143/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20143/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20144/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20144/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20144/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20144/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20145/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20145/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20145/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20145/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20146/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20146/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20146/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20146/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20147/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20147/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20147/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20147/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20148/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20148/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20148/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20148/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20149/real_001",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20149/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20149/real_003",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20149/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20150/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20151/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20152/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20153/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20154/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20155/real_001",
+   "reasons": [
+    "complete",
+    "no_blowup",
+    "size_ok"
+   ],
+   "failed_stages": "T7,T8,T9",
+   "merge_status": "MISSING_CANONICAL_TIMES:[150, 180, 210, 240, 270, 300]"
+  },
+  {
+   "run": "param_20155/real_002",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20156/real_004",
+   "reasons": [
+    "size_ok",
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20156/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20157/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20157/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20158/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20158/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20159/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20159/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20160/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20160/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20161/real_004",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  },
+  {
+   "run": "param_20161/real_005",
+   "reasons": [
+    "independent"
+   ],
+   "failed_stages": "",
+   "merge_status": "OK"
+  }
+ ],
+ "fields": 135,
+ "fields_independent": 58,
+ "field_max_abs_r_master_max": 0.20344431698322296,
+ "field_max_abs_r_other_new_cells_max": 1.0000003576278687,
+ "pools_used_for_cross_cell_check": [
+  "P",
+  "T"
+ ],
+ "file_bytes_median": 13994815.5,
+ "file_bytes_total": 11574183112,
+ "chance_reference_master": {
+  "n_master_fields": 136,
+  "per_field_max_abs_r_vs_other_realizations_median": 0.06478406488895416,
+  "per_field_max_abs_r_vs_other_realizations_max": 0.11163096874952316,
+  "r_null": 0.11163096874952316,
+  "null_percentile": 99.9,
+  "twin_r": 0.5,
+  "fraction_of_master_fields_ge_0p10": 0.11029411764705882
+ },
+ "runs_with_repaired_stages": [
+  "param_20003/real_004:T5,T6,T7,T8,T9",
+  "param_20009/real_003:T5,T6,T7,T8,T9",
+  "param_20013/real_003:T3,T4",
+  "param_20014/real_001:T8",
+  "param_20020/real_002:T5",
+  "param_20024/real_002:T8,T9",
+  "param_20025/real_001:T9",
+  "param_20025/real_004:T8",
+  "param_20026/real_002:T4",
+  "param_20026/real_005:T4",
+  "param_20027/real_002:T5,T6,T7,T8,T9",
+  "param_20029/real_002:T7",
+  "param_20029/real_005:T9",
+  "param_20031/real_001:T7,T8,T9",
+  "param_20033/real_005:T6",
+  "param_20035/real_002:T4",
+  "param_20035/real_004:T8",
+  "param_20037/real_003:T5,T6,T7,T8,T9",
+  "param_20037/real_004:T4",
+  "param_20040/real_005:T5,T6,T7,T8,T9",
+  "param_20042/real_001:T4",
+  "param_20047/real_001:T9",
+  "param_20047/real_002:T2",
+  "param_20048/real_002:T6,T7,T8,T9",
+  "param_20051/real_005:T5,T6,T7,T8,T9",
+  "param_20053/real_004:T7,T8,T9",
+  "param_20054/real_005:T2",
+  "param_20057/real_004:T9",
+  "param_20057/real_005:T6,T7,T8,T9",
+  "param_20065/real_001:T7,T8",
+  "param_20068/real_002:T3,T4,T8,T9",
+  "param_20088/real_004:T3,T4",
+  "param_20099/real_002:T7,T8,T9",
+  "param_20101/real_003:T9",
+  "param_20104/real_003:T5,T6,T7,T8,T9",
+  "param_20105/real_003:T9",
+  "param_20116/real_002:T7,T8,T9",
+  "param_20121/real_002:T9",
+  "param_20121/real_004:T8",
+  "param_20123/real_004:T5,T6,T7,T8,T9",
+  "param_20125/real_005:T2",
+  "param_20130/real_003:T5,T6,T7,T8,T9",
+  "param_20131/real_004:T4",
+  "param_20132/real_001:T8",
+  "param_20138/real_004:T9",
+  "param_20139/real_001:T9",
+  "param_20141/real_003:T3",
+  "param_20143/real_003:T4",
+  "param_20147/real_003:T4",
+  "param_20148/real_004:T1",
+  "param_20149/real_004:T2",
+  "param_20159/real_003:T9"
+ ],
+ "fields_not_twin_free": 60,
+ "fields_outside_chance": 33
+}

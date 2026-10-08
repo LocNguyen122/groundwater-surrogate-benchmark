@@ -1,0 +1,53 @@
+{
+  "snapshot_date": "2026-10-08",
+  "source_package": "repo_v7",
+  "source_software_version": "0.5.0",
+  "snapshot_software_version": "0.1.0-dev",
+  "manuscript_status": "unpublished review draft",
+  "source_manifest_sha256": "7c0c68bf0a0d98d784de847619f6b12f300438b808013d51738105fa892ebc00",
+  "numeric_macro_sha256": "4210c92f28906af9ee5ecc21f8b549362fac7a472e1ed8043fe04ea34c69c856",
+  "protocol_sources": [
+    {
+      "sha256": "7a568c8045e6b8a109889db2959b7fe19619dacf156caec8956c276051850cb6",
+      "file": "DEVIATION_D7_SEED_CLASSES_2026-10-04.md"
+    },
+    {
+      "sha256": "e340e2b9804f70fb29f20fbf0c4eade1962a48c6a46abb5ac950e19d7426192c",
+      "file": "DEVIATION_D8_INCLUSION_2026-10-04.md"
+    },
+    {
+      "sha256": "f0227acc043ad930b38affddf0ee16a1d19d17b4b98f4fccd5a70c3f14d4fac9",
+      "file": "DEVIATIONS_2026-10-03.md"
+    },
+    {
+      "sha256": "80a1241232d9381a1e2b38920fd8c3f3a9e3b72ffa7d955067f9118628b0144b",
+      "file": "PREREG_SHA256.txt"
+    },
+    {
+      "sha256": "c097fc61d4de6d63bc0d3bbc10d19d4180776568571e5ec2cdc811636c86f3ed",
+      "file": "PREREGISTRATION_E1_2026-10-03.md"
+    },
+    {
+      "sha256": "1473f954e1d7b9562785c2ce95d109f70d88f6fba7348a6c4f621b299c235f46",
+      "file": "PREREGISTRATION_OBJ1_V7_2026-10-03.md"
+    },
+    {
+      "sha256": "547220b62214fdee07de2721ecea57705350d39aa57713c6cc27ac1fb9feb41f",
+      "file": "PREREGISTRATION_OBJ1_V7_ADDENDUM2_2026-10-04.md"
+    }
+  ],
+  "snapshot_only_edits": ["scripts/build_manifest.py"],
+  "numerical_sources_changed": false,
+  "model_definitions_changed": false,
+  "source_manifest_entries": 1393,
+  "excluded_categories": [
+    "simulation fields, model setups, simulator generation/repair utilities and commands",
+    "checkpoints and prediction caches",
+    "cluster launch scripts and work directories",
+    "internal documents, correspondence, agent configuration and manuscript drafts",
+    "executables, credentials, old Git history and archives"
+  ],
+  "new_packaging_files": "Documentation, CI, snapshot/CLI/reproduction validators and boundary tests. The manifest builder excludes ignored reproduction outputs; all other copied files remain byte-identical.",
+  "license_authorization": "pending; MIT preferred only after rights-holder confirmation",
+  "source_protocols": "Hashes only. Original documents excluded; scientific corrections summarized in docs/SCIENTIFIC_PROTOCOL.md"
+}

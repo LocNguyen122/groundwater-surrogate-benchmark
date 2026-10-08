@@ -21,6 +21,11 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def lf_text_sha256(data: bytes) -> str:
+    """Normalize line endings only; numerical values and all other bytes stay significant."""
+    return hashlib.sha256(data.replace(b"\r\n", b"\n")).hexdigest()
+
+
 def check_path(relative: Path) -> None:
     if relative.is_absolute() or ".." in relative.parts or set(relative.parts) & FORBIDDEN_PARTS or relative.parts[0] == "data":
         raise ValueError("Restricted snapshot path: " + relative.as_posix())

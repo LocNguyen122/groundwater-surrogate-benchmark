@@ -46,6 +46,9 @@ python scripts/v7_analysis/regenerate_checkpoint.py --checkpoint last --output r
 These longer CPU calculations require neither simulation fields nor checkpoints. Optional engineering output can
 differ from a scoring-only summary when the original engineering CSVs are available; the SSIM summaries and
 inferential contrasts are unchanged. Absolute means and equal-cluster-weighted contrasts use different weighting.
+Macro text is compared with LF-normalized checksums across platforms; certified numerical files retain their
+original byte-exact hashes. The first CI run exposed this line-ending portability defect and remains visible in
+the packaging record. Earlier incomplete analysis files are historical, not the current macro inputs.
 
 ## Layout
 

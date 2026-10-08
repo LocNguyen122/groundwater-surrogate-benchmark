@@ -19,3 +19,11 @@ class SnapshotBoundaryTests(unittest.TestCase):
 
     def test_safe_csv_is_permitted(self):
         module.check_path(Path("results/summary.csv"))
+
+    def test_macro_checksum_normalizes_line_endings_only(self):
+        self.assertEqual(module.lf_text_sha256(b"value=0.5122\r\n"),
+                         module.lf_text_sha256(b"value=0.5122\n"))
+
+    def test_macro_checksum_rejects_changed_values(self):
+        self.assertNotEqual(module.lf_text_sha256(b"value=0.5122\n"),
+                            module.lf_text_sha256(b"value=0.5222\n"))

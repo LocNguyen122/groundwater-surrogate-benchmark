@@ -6,6 +6,14 @@
   "manuscript_status": "unpublished review draft",
   "source_manifest_sha256": "7c0c68bf0a0d98d784de847619f6b12f300438b808013d51738105fa892ebc00",
   "numeric_macro_sha256": "4210c92f28906af9ee5ecc21f8b549362fac7a472e1ed8043fe04ea34c69c856",
+  "numeric_macro_lf_sha256": "06bd3d6081e401b0154bdfaabda69363ba6007c805f550879fa71784bc1f10f1",
+  "macro_verification": "Only CRLF/LF is normalized for cross-platform text comparison; scientific CSV/JSON hashes remain byte-exact",
+  "ci_preparation_failure": {
+    "run": "https://github.com/LocNguyen122/groundwater-surrogate-benchmark/actions/runs/37750539360",
+    "status": "failed",
+    "cause": "Linux macro output uses LF, Windows source uses CRLF; raw-byte comparison rejected equivalent text",
+    "scientific_changes": false
+  },
   "protocol_sources": [
     {
       "sha256": "7a568c8045e6b8a109889db2959b7fe19619dacf156caec8956c276051850cb6",

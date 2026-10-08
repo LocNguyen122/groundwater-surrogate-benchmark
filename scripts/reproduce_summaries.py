@@ -6,7 +6,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from verify_snapshot import verify
+from verify_snapshot import verify, lf_text_sha256
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,7 +22,7 @@ if __name__ == "__main__":
     subprocess.run([sys.executable, str(ROOT / "scripts/v7_analysis/make_numbers_v7.py"),
                     str(ROOT / "scripts/v7_analysis/inputs_v7.json"), str(out.resolve())], check=True)
     record = json.loads((ROOT / "provenance/PACKAGING_RECORD.json").read_text())
-    if hashlib.sha256(out.read_bytes()).hexdigest() != record["numeric_macro_sha256"]:
+    if lf_text_sha256(out.read_bytes()) != record["numeric_macro_lf_sha256"]:
         raise ValueError("Numeric macro reproduction differs from the verified source")
     rows = []
     for ck in ("best", "last"):

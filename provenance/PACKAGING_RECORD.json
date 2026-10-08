@@ -6,7 +6,11 @@
     "new_diagnostics": "Exploratory well-rate block intervals, crop source coverage and weighting sensitivities; no model inference or training",
     "code_behavior": "Backward-compatible validation-anchor CLI/config/manifest wording; same crop coordinates. Shared conductivity display limits corrected; old empirical figure not regenerated",
     "verification_failure": "Initial new test omitted required Config.data_root; corrected test fixture, not model code. Failed and corrected CPU records preserved",
-    "original_macro_values_changed": false
+    "original_macro_values_changed": false,
+    "private_repository_updated": true,
+    "verified_scientific_update_commit": "e07de4acb489e758097a427aeb3181f09f679021",
+    "fresh_clone": "PASS: 55 tests, snapshot/release checks, 570 exact macros and matching new diagnostics; use a short Windows clone path and local core.longpaths support",
+    "history_audit": "3 code-only commits inspected, no restricted asset/credential/path matches. Not an authorship or legal clearance"
   },
   "supervisor_package_layout": {
     "base_private_repository_commit": "a1458440090c16a5494029275f55f22d827ceb31",

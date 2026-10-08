@@ -25,6 +25,12 @@ historical measurements, not relabeled as evidence of independent-geology genera
 Use Python 3.11 in an isolated environment. CI installs CPU-only PyTorch and does not run training, dataset
 generation, GPU evaluation or simulator commands.
 
+On Windows, retained scientific result identifiers can exceed the default checkout path limit. Clone into a
+short directory with repository-local long-path support, for example
+`git -c core.longpaths=true clone https://github.com/LocNguyen122/groundwater-surrogate-benchmark.git gsb`.
+This does not change global Git settings or shorten historical evidence paths. The v8 fresh-clone checks
+passed with this mode; an earlier longer-directory checkout failed before tests with `Filename too long`.
+
 ```bash
 python -m venv .venv
 # Activate .venv using the command for your operating system.

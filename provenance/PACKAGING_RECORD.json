@@ -1,5 +1,20 @@
 {
-  "snapshot_date": "2026-10-08",
+  "snapshot_date": "2026-10-09",
+  "review_revision": {
+    "manuscript": "v8; v7 preserved",
+    "new_inputs": "20 existing permitted engineering seed CSVs and 60 original validation crop manifests, copied without changing measurements",
+    "new_diagnostics": "Exploratory well-rate block intervals, crop source coverage and weighting sensitivities; no model inference or training",
+    "code_behavior": "Backward-compatible validation-anchor CLI/config/manifest wording; same crop coordinates. Shared conductivity display limits corrected; old empirical figure not regenerated",
+    "verification_failure": "Initial new test omitted required Config.data_root; corrected test fixture, not model code. Failed and corrected CPU records preserved",
+    "original_macro_values_changed": false
+  },
+  "supervisor_package_layout": {
+    "base_private_repository_commit": "a1458440090c16a5494029275f55f22d827ceb31",
+    "changes": "License status, third-party notices and contribution guidance grouped under docs; README links updated; manifest regenerated",
+    "scientific_files_changed": false,
+    "code_behavior_changed": false,
+    "private_repository_updated": false
+  },
   "source_package": "repo_v7",
   "source_software_version": "0.5.0",
   "snapshot_software_version": "0.1.0-dev",
@@ -44,7 +59,7 @@
       "file": "PREREGISTRATION_OBJ1_V7_ADDENDUM2_2026-10-04.md"
     }
   ],
-  "snapshot_only_edits": ["scripts/build_manifest.py"],
+  "snapshot_only_edits": ["scripts/build_manifest.py", "src/transport_surrogates/confirmatory_v5/train.py", "scripts/build_v7_example_figure.py"],
   "numerical_sources_changed": false,
   "model_definitions_changed": false,
   "source_manifest_entries": 1393,

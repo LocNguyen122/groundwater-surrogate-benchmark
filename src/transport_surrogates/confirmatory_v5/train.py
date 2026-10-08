@@ -100,6 +100,15 @@ class Config:
     fno_pad_ratio: float = 0.125
     device: str = "cuda" if torch.cuda.is_available() else "cpu"
 
+    @property
+    def validation_anchor_row(self) -> int:
+        """Legacy source_row is a crop anchor, not the injection-well coordinate."""
+        return self.source_row
+
+    @property
+    def validation_anchor_col(self) -> int:
+        return self.source_col
+
 
 def parse_args() -> Config:
     parser = argparse.ArgumentParser()
@@ -143,8 +152,10 @@ def parse_args() -> Config:
     parser.add_argument("--lambda_ffl", type=float, default=0.01)
     parser.add_argument("--ffl_alpha", type=float, default=1.0)
     parser.add_argument("--fixed_val_crop_seed", type=int, default=20260715)
-    parser.add_argument("--source_row", type=int, default=399)
-    parser.add_argument("--source_col", type=int, default=199)
+    parser.add_argument("--validation_anchor_row", "--source_row", dest="source_row", type=int, default=399,
+                        help="Validation crop anchor row; legacy --source_row is retained. Not the injection well.")
+    parser.add_argument("--validation_anchor_col", "--source_col", dest="source_col", type=int, default=199,
+                        help="Validation crop anchor column; legacy --source_col is retained.")
     parser.add_argument("--limit_train_files", type=int, default=0)
     parser.add_argument("--limit_val_files", type=int, default=0)
     parser.add_argument("--resume", action="store_true")
@@ -304,7 +315,7 @@ def run_epoch(model, loader, cfg: Config, ffl, optimizer=None, scaler=None) -> d
 def write_validation_manifest(dataset, output_path: Path) -> None:
     with output_path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle)
-        writer.writerow(["sample_key", "crop_y0", "crop_x0", "source_row", "source_col"])
+        writer.writerow(["sample_key", "crop_y0", "crop_x0", "validation_anchor_row", "validation_anchor_col"])
         for path in dataset.files:
             y0, x0 = dataset._fixed_crop_origin(path, 600, 400)
             writer.writerow([f"{Path(path).parent.name}/{Path(path).name}", y0, x0, dataset.source_row, dataset.source_col])
@@ -401,8 +412,8 @@ def main() -> None:
         fixed_crop_seed=cfg.fixed_val_crop_seed,
         require_source_in_crop=True,
         crop_key=cfg.val_crop_key,
-        source_row=cfg.source_row,
-        source_col=cfg.source_col,
+        source_row=cfg.validation_anchor_row,
+        source_col=cfg.validation_anchor_col,
         **common,
     )
     write_validation_manifest(val_dataset, out_dir / "validation_crop_manifest.csv")
@@ -494,7 +505,10 @@ def main() -> None:
             "parameter_count": sum(parameter.numel() for parameter in model.parameters()),
             "output_parameterization": "bounded_sigmoid_log10",
             "output_bounds": [LOG10_MIN, LOG10_MAX],
-            "validation_crop_policy": "fixed_source_containing",
+            "validation_crop_policy": "fixed_anchor_containing",
+            "validation_anchor_row": cfg.validation_anchor_row,
+            "validation_anchor_col": cfg.validation_anchor_col,
+            "legacy_coordinate_names": "source_row/source_col refer to the validation anchor, not the injection well",
             "validation_crop_key": cfg.val_crop_key,
             "width": cfg.fno_width, "modes1": cfg.fno_modes1, "modes2": cfg.fno_modes2,
             "depth": cfg.fno_depth, "use_coords": True, "pad_ratio": cfg.fno_pad_ratio,

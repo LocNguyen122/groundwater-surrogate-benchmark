@@ -1,7 +1,8 @@
 {
   "software_snapshot": "0.1.0-dev",
-  "manuscript_source": "v7 review draft, 2026-10-08",
-  "visibility_required": "private",
+  "manuscript_source": "v8 review draft, 2026-10-09; v7 preserved",
+  "visibility_required": "private until included-code distribution rights are confirmed",
+  "public_visibility_requested_by_user": true,
   "final_paper_release": false,
   "article_doi": null,
   "open_source_license": null,
@@ -14,6 +15,6 @@
     "coauthor manuscript approval",
     "confirmed restricted-data access terms",
     "venue fit and data-policy decision",
-    "separate approval before public visibility or formal release"
+    "included-code distribution rights, including adapted implementation obligations; open-source licensing is separate"
   ]
 }

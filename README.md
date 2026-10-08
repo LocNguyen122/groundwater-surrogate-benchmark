@@ -1,7 +1,7 @@
 # Groundwater surrogate benchmark and evaluation audit
 
-Private research-code snapshot for reviewing deterministic groundwater plume surrogates and their evaluation
-on independently seeded geology. This is **not a final paper release or an open-source release**. The associated
+Research-code snapshot for reviewing deterministic groundwater plume surrogates and their evaluation
+on empirically screened fresh-seed geology. This is **not a final paper release or an open-source release**. The associated
 manuscript is an unpublished review draft; no article DOI or acceptance is claimed. See [release status](RELEASE_STATUS.json).
 
 ## Research question and methods
@@ -15,7 +15,9 @@ hierarchical bootstrap intervals, sign-flip tests and multiplicity correction.
 Scientific interpretation matters: original grouped fields have training twins. On independently seeded geology,
 matched-code plume SSIM is approximately 0.512, below the setting mean of 0.822. The primary conditioning contrast
 remains positive, but the five-seed secondary `(62, 1)` contrast is inconclusive at both selected and final
-checkpoints. The related MS-TMO arm is not architecture-independent replication. Older results are preserved as
+checkpoints. The related MS-TMO arm is not architecture-independent replication. The bounded log-setting mean
+has fewer false alarms but misses more well exceedances than the matched model; it is not Pareto-dominant.
+Older results are preserved as
 historical measurements, not relabeled as evidence of independent-geology generalization.
 
 ## CPU-only quick start
@@ -32,6 +34,8 @@ python scripts/verify_snapshot.py
 python scripts/run_release_tests.py
 python scripts/validate_release_artifacts.py
 python scripts/reproduce_summaries.py --output reproduced
+python scripts/review_diagnostics.py --output reproduced/review_diagnostics.json
+python scripts/build_review_figures.py --output reproduced/figures
 ```
 
 `reproduced/` must be new. The final command reproduces the numeric macro bundle and exports checkpoint contrasts
@@ -59,6 +63,12 @@ the packaging record. Earlier incomplete analysis files are historical, not the 
 - `results/`: lightweight per-case and aggregate measurements, including historical results and current certifications.
 - `figures/v7/`: numeric figure provenance only, not simulation arrays or manuscript figures.
 - `provenance/`: source file checksums and a record of snapshot-only edits.
+- `docs/`: scientific protocol, license status, third-party obligations and contribution guidance.
+
+This compact review package preserves every audited result input and test. Supporting documentation is grouped
+in `docs/`; manuscript-only figure sources and unused older figures are not part of the LaTeX package. The large
+number of result CSVs is needed for the paired bootstrap analyses, including selected- and final-checkpoint
+comparisons. Removing those inputs would prevent reproduction rather than simplify the research.
 
 Historical run identifiers inside result paths are preserved to keep scientific traceability. No development
 checkout, compute-cluster workspace or inherited Git history is included.
@@ -76,8 +86,8 @@ suppressed 70. The older trainer sanitized nonfinite raw outputs, so finite loss
 Recovered-artifact and failure disclosures remain in their original scientific summaries.
 
 MIT is the preferred candidate for original code, but ownership and license authorization remain unconfirmed.
-No open-source license is applied. Dependencies keep their own terms; see [license status](LICENSE_STATUS.md) and
-[third-party notices](THIRD_PARTY_NOTICES.md). Material AI assistance in code refactoring, analysis tooling and
+No open-source license is applied. Dependencies keep their own terms; see [license status](docs/LICENSE_STATUS.md) and
+[third-party notices](docs/THIRD_PARTY_NOTICES.md). Material AI assistance in code refactoring, analysis tooling and
 language editing is disclosed in the scientific protocol. It does not replace human responsibility for claims.
 
 The GitHub workflow uses read-only permissions and immutable action revisions, following
@@ -88,6 +98,8 @@ Historical training used its recorded environment; CI is a separate compatibilit
 ## Citation and review
 
 `CITATION.cff` identifies this software snapshot without inventing an article DOI or publication. The associated
-manuscript is titled *Hidden Conductivity Twins Inflate the Accuracy of Groundwater Plume Surrogates: An Audit
-on Independently Seeded Geology*. Manuscript approval, code licensing, confirmed data-access terms and venue
-choice remain pending. Private repository access must be granted separately before others can review it.
+manuscript is titled *Auditing Generator-Induced Conductivity Twins in Groundwater Plume Surrogates*.
+Manuscript approval, code licensing, confirmed data-access terms and venue choice remain pending.
+See the [table/figure reproduction map](docs/REPRODUCIBILITY_MAP.md),
+[crop replay modes](docs/TRAINING_REPLAY.md) and [environment limits](docs/ENVIRONMENT_PROVENANCE.md).
+Code-only public distribution has been requested, but implementation-rights clearance remains a gate.

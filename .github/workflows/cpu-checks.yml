@@ -41,5 +41,7 @@ jobs:
         run: |
           python scripts/verify_cli_help.py
           python scripts/reproduce_summaries.py --output reproduced-ci
+          python scripts/review_diagnostics.py --output reproduced-ci/review_diagnostics.json
+          python scripts/build_review_figures.py --output reproduced-ci/figures
       - name: Fresh checkout remains clean
         run: test -z "$(git status --porcelain)"

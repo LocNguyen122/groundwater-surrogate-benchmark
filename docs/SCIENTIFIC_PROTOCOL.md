@@ -6,7 +6,7 @@ six test cells reuse five streams; historical intervals are conditional descript
 
 Independent-geology evaluation has 27 cells but 16 random-stream clusters; resampling uses those clusters.
 Pool T2 restores 27 independent cells but shares 16 cells with the first pool. It is not a wholly independent
-second sample. Seed independence was checked in generated fields, not assumed from distinct integer labels.
+second sample. Distinct streams were screened using generated fields, not assumed from distinct integer labels.
 The candidate correlation threshold is study-specific, not a universal independence rule.
 
 Training used recorded AdamW settings, no augmentation and the documented bounds and evaluation transforms.
@@ -41,3 +41,15 @@ Raw fields, simulation setup and generation/repair commands are deliberately abs
 protocol and deviation documents contain private working context and are not redistributed; the packaging
 record retains their source hashes. The scientific limitations above remain despite that exclusion. Full
 restricted-asset reproduction, owner authorization and manuscript submission are separate gates.
+
+The v8 review clarifies that private dated protocol records and hashes are not independently timestamped public
+preregistrations. Grouped conditioning comparisons retain three pilot seeds used to select scale-up and are
+exploratory. Training A/B differences include target screening and validation geology as well as training diversity.
+The reference is a bounded log-setting mean, not an arithmetic physical-concentration mean. Seven wells are
+training-selected, spatially dependent probes; post-review per-well and pooled block intervals are exploratory.
+The new diagnostics do not change the certified primary statistics or turn 27 cells into independent clusters.
+
+Validation crops contain a downstream anchor `(399,199)`, not necessarily the injection well `(200,199)`.
+Future config/CLI/manifest wording is corrected without changing crop coordinates or historical outputs.
+The former empirical one-case illustration is withdrawn pending properly shared-scale regeneration from
+restricted predictions. Original vector workflow and CSV-derived well trade-offs replace it in the manuscript.

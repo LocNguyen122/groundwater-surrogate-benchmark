@@ -1,20 +1,23 @@
 {
   "software_snapshot": "0.1.0-dev",
   "manuscript_source": "v8 review draft, 2026-10-09; v7 preserved",
-  "visibility_required": "private until included-code distribution rights are confirmed",
+  "visibility_required": "public code-only under recorded publication approval",
   "public_visibility_requested_by_user": true,
   "final_paper_release": false,
   "article_doi": null,
-  "open_source_license": null,
-  "preferred_original_code_license": "MIT, subject to rights-holder approval",
+  "open_source_license": "MIT",
+  "selected_original_code_license": "MIT",
+  "original_code_licensing_authority_confirmed": true,
+  "copyright_holder_for_original_code": "Loc K. Nguyen",
+  "license_decision": "Owner confirmed authority for original ML/AI code and delegated license selection; MIT applied to eligible original code, not excluded simulation assets or third-party components",
+  "preferred_original_code_license": "MIT",
   "selected_checkpoint_scoring": "complete and verified",
   "final_checkpoint_scoring": "complete and verified",
   "restricted_asset_reproduction": "not tested; assets excluded",
   "remaining_gates": [
-    "copyright ownership and license authorization",
     "coauthor manuscript approval",
     "confirmed restricted-data access terms",
     "venue fit and data-policy decision",
-    "included-code distribution rights, including adapted implementation obligations; open-source licensing is separate"
+    "continued preservation of third-party obligations; no rights granted in excluded simulation assets"
   ]
 }

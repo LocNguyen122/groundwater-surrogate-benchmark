@@ -20,4 +20,7 @@ the selected source was removed. No pretrained third-party weights are included.
 The focal-frequency loss file describes a lightweight implementation based on the ICCV 2021 method, rather than
 a bundled copy of an upstream package. Fourier operators, U-Net and FiLM are methodological references, not
 evidence of code copyright provenance. Scientific attribution is not a substitute for confirming rights in any
-adapted implementation. That review remains open before licensing or public release.
+adapted implementation. No concrete copied-code license conflict was identified in the inspected snapshot,
+but this is not proof of authorship or comprehensive legal clearance. The owner confirmed authority to license
+original ML/AI code under MIT; retain separate third-party notices and resolve any newly identified adaptation
+obligations. Original-code MIT does not relicense dependencies or excluded simulation assets.

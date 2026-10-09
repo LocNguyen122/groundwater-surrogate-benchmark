@@ -1,5 +1,15 @@
 {
   "snapshot_date": "2026-10-09",
+  "license_decision_2026_10_09": {
+    "selected": "MIT for original research code",
+    "selection_authorization": "Owner requested delegation of license choice and implementation",
+    "effective_grant": true,
+    "ownership_basis": "Owner explicitly confirmed ability to license original ML/AI code; simulation generation/data belong to PHF/ESR and remain excluded",
+    "original_code_copyright_holder": "Loc K. Nguyen",
+    "distribution_authorization": "Explicit code-only public request and recorded PHF/ESR code-sharing approval",
+    "scope": "No rights in excluded simulation fields, model setups, checkpoints or private infrastructure",
+    "technical_change": "CPU validation now distinguishes selected license from effective license and requires authority metadata plus LICENSE before reporting MIT"
+  },
   "review_revision": {
     "manuscript": "v8; v7 preserved",
     "new_inputs": "20 existing permitted engineering seed CSVs and 60 original validation crop manifests, copied without changing measurements",
@@ -63,7 +73,7 @@
       "file": "PREREGISTRATION_OBJ1_V7_ADDENDUM2_2026-10-04.md"
     }
   ],
-  "snapshot_only_edits": ["scripts/build_manifest.py", "src/transport_surrogates/confirmatory_v5/train.py", "scripts/build_v7_example_figure.py"],
+  "snapshot_only_edits": ["scripts/build_manifest.py", "src/transport_surrogates/confirmatory_v5/train.py", "scripts/build_v7_example_figure.py", "scripts/verify_snapshot.py"],
   "numerical_sources_changed": false,
   "model_definitions_changed": false,
   "source_manifest_entries": 1393,
@@ -75,6 +85,6 @@
     "executables, credentials, old Git history and archives"
   ],
   "new_packaging_files": "Documentation, CI, snapshot/CLI/reproduction validators and boundary tests. The manifest builder excludes ignored reproduction outputs; all other copied files remain byte-identical.",
-  "license_authorization": "pending; MIT preferred only after rights-holder confirmation",
+  "license_authorization": "MIT authorized by owner for original ML/AI code on 2026-10-09; no simulation-asset or third-party relicensing",
   "source_protocols": "Hashes only. Original documents excluded; scientific corrections summarized in docs/SCIENTIFIC_PROTOCOL.md"
 }

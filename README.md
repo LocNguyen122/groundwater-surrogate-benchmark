@@ -1,7 +1,7 @@
 # Groundwater surrogate benchmark and evaluation audit
 
 Research-code snapshot for reviewing deterministic groundwater plume surrogates and their evaluation
-on empirically screened fresh-seed geology. This is **not a final paper release or an open-source release**. The associated
+on empirically screened fresh-seed geology. Original research code is MIT-licensed. This is **not a final paper release**. The associated
 manuscript is an unpublished review draft; no article DOI or acceptance is claimed. See [release status](RELEASE_STATUS.json).
 
 ## Research question and methods
@@ -91,8 +91,9 @@ gate, not manuscript approval. Original grouped training suppressed 224 AMP upda
 suppressed 70. The older trainer sanitized nonfinite raw outputs, so finite losses do not prove finite raw outputs.
 Recovered-artifact and failure disclosures remain in their original scientific summaries.
 
-MIT is the preferred candidate for original code, but ownership and license authorization remain unconfirmed.
-No open-source license is applied. Dependencies keep their own terms; see [license status](docs/LICENSE_STATUS.md) and
+Original ML/AI code and its original documentation are licensed under [MIT](LICENSE), with the owner's confirmed
+authority. This does not license excluded simulation assets or third-party components. Dependencies keep their
+own terms; see [license scope](docs/LICENSE_STATUS.md) and
 [third-party notices](docs/THIRD_PARTY_NOTICES.md). Material AI assistance in code refactoring, analysis tooling and
 language editing is disclosed in the scientific protocol. It does not replace human responsibility for claims.
 
@@ -105,7 +106,8 @@ Historical training used its recorded environment; CI is a separate compatibilit
 
 `CITATION.cff` identifies this software snapshot without inventing an article DOI or publication. The associated
 manuscript is titled *Auditing Generator-Induced Conductivity Twins in Groundwater Plume Surrogates*.
-Manuscript approval, code licensing, confirmed data-access terms and venue choice remain pending.
+Manuscript approval, confirmed data-access terms and venue fit remain pending; the original-code license is MIT.
 See the [table/figure reproduction map](docs/REPRODUCIBILITY_MAP.md),
 [crop replay modes](docs/TRAINING_REPLAY.md) and [environment limits](docs/ENVIRONMENT_PROVENANCE.md).
-Code-only public distribution has been requested, but implementation-rights clearance remains a gate.
+Code-only public distribution is authorized. Public visibility and MIT do not imply a publicly licensed simulation
+dataset, complete restricted-asset reproduction, paper submission or journal-policy clearance.

@@ -4,7 +4,7 @@ message: "Research-code review snapshot. The associated manuscript is unpublishe
 title: "Groundwater surrogate benchmark and evaluation audit"
 version: "0.1.0-dev"
 license: MIT
-repository-code: "https://github.com/LocNguyen122/groundwater-surrogate-benchmark"
+repository-code: "https://github.com/loc-k-nguyen/groundwater-surrogate-benchmark"
 authors:
   - family-names: Nguyen
     given-names: Loc K.

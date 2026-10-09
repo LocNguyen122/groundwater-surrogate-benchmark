@@ -1,6 +1,6 @@
 # Groundwater Surrogate Benchmark
 
-[![CPU reproducibility checks](https://github.com/LocNguyen122/groundwater-surrogate-benchmark/actions/workflows/cpu-checks.yml/badge.svg?branch=main)](https://github.com/LocNguyen122/groundwater-surrogate-benchmark/actions/workflows/cpu-checks.yml)
+[![CPU reproducibility checks](https://github.com/loc-k-nguyen/groundwater-surrogate-benchmark/actions/workflows/cpu-checks.yml/badge.svg?branch=main)](https://github.com/loc-k-nguyen/groundwater-surrogate-benchmark/actions/workflows/cpu-checks.yml)
 [![Original code: MIT](https://img.shields.io/badge/original_code-MIT-blue)](LICENSE)
 [![CPU environment: Python 3.11](https://img.shields.io/badge/CPU_environment-Python_3.11-64748b)](requirements-cpu.txt)
 
@@ -65,7 +65,7 @@ generation, GPU evaluation or simulator commands.
 
 On Windows, retained scientific result identifiers can exceed the default checkout path limit. Clone into a
 short directory with repository-local long-path support, for example
-`git -c core.longpaths=true clone https://github.com/LocNguyen122/groundwater-surrogate-benchmark.git gsb`.
+`git -c core.longpaths=true clone https://github.com/loc-k-nguyen/groundwater-surrogate-benchmark.git gsb`.
 This does not change global Git settings or shorten historical evidence paths. The v8 fresh-clone checks
 passed with this mode; an earlier longer-directory checkout failed before tests with `Filename too long`.
 

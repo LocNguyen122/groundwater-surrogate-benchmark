@@ -1,5 +1,15 @@
 {
   "snapshot_date": "2026-10-09",
+  "account_rename_2026_10_09": {
+    "old_username": "LocNguyen122",
+    "new_username": "loc-k-nguyen",
+    "authorization": "User explicitly selected name-based username matching Loc K. Nguyen",
+    "current_links_updated": "README badge/clone URLs and software citation metadata",
+    "historical_references_preserved": true,
+    "scientific_files_changed": false,
+    "code_behavior_changed": false,
+    "license_or_visibility_changed": false
+  },
   "presentation_update_2026_10_09": {
     "scope": "README navigation, live CPU status and license/environment badges, conceptual Mermaid study overview, evidence/documentation map and citation guidance",
     "visual_provenance": "Original conceptual diagram defined in README; no simulation pixels, model output imagery or new numeric findings",

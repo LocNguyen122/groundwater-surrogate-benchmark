@@ -43,5 +43,6 @@ jobs:
           python scripts/reproduce_summaries.py --output reproduced-ci
           python scripts/review_diagnostics.py --output reproduced-ci/review_diagnostics.json
           python scripts/build_review_figures.py --output reproduced-ci/figures
+          python scripts/revision_diagnostics.py --output reproduced-ci/revision
       - name: Fresh checkout remains clean
         run: test -z "$(git status --porcelain)"

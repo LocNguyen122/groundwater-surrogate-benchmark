@@ -6,7 +6,8 @@ Legacy `source_row/source_col` configuration fields denote the anchor, not the i
 
 The backward-compatible trainer accepts `--validation_anchor_row 399 --validation_anchor_col 199` and the
 older aliases. Future crop manifests label these as validation anchors. Coordinates and crop algorithms are
-unchanged; historical manifests/configs are preserved without relabeling. Each of the 60 shipped historical
+unchanged. Legacy CLI aliases now emit a FutureWarning explaining the semantics; the preferred names do not.
+Historical manifests/configs are preserved without relabeling. Each of the 60 shipped historical
 manifests has 84 crops: all contain the anchor, but only 68 contain the injection well.
 
 For authorized replay only, the command forms are:

@@ -15,6 +15,12 @@ fresh-seed geology, transport conditioning and engineering decision trade-offs.
 **Status:** review-stage code snapshot, **not a final paper release**. Original research code is MIT-licensed. The associated
 manuscript is an unpublished review draft; no article DOI or acceptance is claimed. See [release status](RELEASE_STATUS.json).
 
+| Reproduction layer | What this repository establishes |
+| --- | --- |
+| Released scores and summaries | CPU-reconstructible numeric tables, counterfactual matrices and descriptive well diagnostics |
+| Conductivity/generator findings | Field-level verification restricted; metadata and source checksums are not substitute field evidence |
+| Historical training replay | Not verified end to end; requires authorized data, weights and the recorded GPU environment |
+
 ## Research overview
 
 ```mermaid
@@ -50,7 +56,7 @@ transport-code conditioning under withheld combinations. Implementations include
 variant, CNN/Pix2Pix and operator reference models. Current statistical analysis uses paired random-stream clusters,
 hierarchical bootstrap intervals, sign-flip tests and multiplicity correction.
 
-Scientific interpretation matters: original grouped fields have training twins. On independently seeded geology,
+Scientific interpretation matters: original grouped fields have training twins. On the screened fresh-seed pool,
 matched-code plume SSIM is approximately 0.512, below the setting mean of 0.822. The primary conditioning contrast
 remains positive, but the five-seed secondary `(62, 1)` contrast is inconclusive at both selected and final
 checkpoints. The related MS-TMO arm is not architecture-independent replication. The bounded log-setting mean
@@ -80,11 +86,17 @@ python scripts/validate_release_artifacts.py
 python scripts/reproduce_summaries.py --output reproduced
 python scripts/review_diagnostics.py --output reproduced/review_diagnostics.json
 python scripts/build_review_figures.py --output reproduced/figures
+python scripts/revision_diagnostics.py --output reproduced/revision
 ```
 
 `reproduced/` must be new. Summary reproduction verifies the numeric macro bundle and exports checkpoint contrasts
 from the shipped statistical summaries. The figure command creates the study schematic, well trade-off plot and
 counterfactual matrix from permitted summaries, without restricted field pixels. Numerical sources are not overwritten.
+The v9 revision supplies **10,440 counterfactual case-score rows** from 60 historical sweep CSVs. The revision
+command checks both original matrices and all 36 cell-by-setting and 60 seed-by-setting consistency rows,
+then exports QA strata, monitoring-well support and illustrative false-negative/false-positive cost scenarios.
+Pool T has 794 retained transport cases in 135 cell-realization groups after 16 exclusions, not 134 evaluated
+groups. Its primary paired contrasts weight 16 stream clusters equally; absolute scores weight cases.
 For full 10,000-replicate recomputation from the permitted per-case CSVs:
 
 ```bash
@@ -131,11 +143,16 @@ checkout, compute-cluster workspace or inherited Git history is included.
 
 ### Verification scope
 
-The 9 October 2026 local checks passed **60 synthetic CPU tests**, exact reproduction of **570 original numeric
+The 9 October 2026 baseline checks passed **60 synthetic CPU tests**, exact reproduction of **570 original numeric
 macros**, and verification of **250 selected-checkpoint plus 250 final-checkpoint scoring outputs**.
 The live badge reports the current GitHub workflow status; it is not a claim of journal acceptance or full
 restricted-data reproduction. See the [CPU test record](results/v8/cpu_tests_license_2026-10-09.json) and
 [release status](RELEASE_STATUS.json).
+
+The 10 October 2026 v9 local gate passes **66 CPU tests**, including new guards for QA denominators,
+counterfactual reconstruction, cost denominators and legacy validation-anchor warnings. These are CPU
+software tests, not new simulator runs or extra training seeds. See the [v9 test record](results/v9/cpu_tests_2026-10-10.json).
+The latest workflow log reports the current count and outcome, rather than a permanently painted pass badge.
 
 ## Availability, integrity and limitations
 

@@ -1,5 +1,15 @@
 {
-  "snapshot_date": "2026-10-09",
+  "snapshot_date": "2026-10-10",
+  "review_revision_2026_10_10": {
+    "manuscript": "v9; v8 preserved",
+    "new_inputs": "10440 SSIM-only case scores from 60 historical counterfactual sweep CSVs, exact matrices and cell/seed counts checked",
+    "new_diagnostics": "QA/group denominators, cell/transport exclusion strata, per-well support and illustrative decision-cost scenarios from existing permitted records",
+    "figure_changes": "Padding-checked vector schematic; categorical z1-z6 counterfactual labels; no restricted plume images",
+    "code_behavior": "Legacy crop-anchor CLI aliases warn; same coordinates/model/optimizer/loss behavior",
+    "original_macro_values_changed": false,
+    "new_training_or_scoring": false,
+    "scientific_limits": "Restricted field verification, null calibration, causal screened-A control, additional baseline/threshold experiments and historical GPU replay remain unavailable or unperformed"
+  },
   "account_rename_2026_10_09": {
     "old_username": "LocNguyen122",
     "new_username": "loc-k-nguyen",

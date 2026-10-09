@@ -4,8 +4,9 @@ This snapshot supports review of an unpublished evaluation audit, not a claim of
 Original grouped fields share random streams and amplitude-rescaled twins across training and evaluation. Their
 six test cells reuse five streams; historical intervals are conditional descriptive summaries.
 
-Independent-geology evaluation has 27 cells but 16 random-stream clusters; resampling uses those clusters.
-Pool T2 restores 27 independent cells but shares 16 cells with the first pool. It is not a wholly independent
+Screened fresh-seed evaluation has 27 cells but 16 random-stream clusters; independence of screened
+streams is an analysis assumption, not a result of correlation testing. Resampling uses those clusters.
+Pool T2 provides 27 screened distinct-stream cells but shares 16 cells with the first pool. It is not a wholly independent
 second sample. Distinct streams were screened using generated fields, not assumed from distinct integer labels.
 The candidate correlation threshold is study-specific, not a universal independence rule.
 
@@ -48,6 +49,19 @@ exploratory. Training A/B differences include target screening and validation ge
 The reference is a bounded log-setting mean, not an arithmetic physical-concentration mean. Seven wells are
 training-selected, spatially dependent probes; post-review per-well and pooled block intervals are exploratory.
 The new diagnostics do not change the certified primary statistics or turn 27 cells into independent clusters.
+
+The v9 count audit joins the 794 retained case scores to 135 (cell, realization) groups: 120 retain six
+transport settings, 14 five and one four. Sixteen case-level QA exclusions comprise 11 pure solver
+overshoots and five other run/size failures. Pool T2 retains 797/810 cases after 11 overshoots and two
+run/size failures. The dedicated covariance-matched correlation audit sampled 134 arrays from one
+transport folder per group; that coverage is not the case-score denominator. Stored QA screen records
+span 135 groups and are released as descriptive maxima, not newly verified raw fields.
+
+Sixty historical counterfactual CSVs now supply 10,440 permitted SSIM rows without field pixels or
+physical prediction caches. CPU checks reaggregate both pooled matrices and all cell/seed consistency
+counts against the unchanged historical figure JSON. Per-well CSVs expose simulation support separately
+from ten-seed repetitions. Illustrative FP/FN costs are not calibrated operational losses. The corrected
+retraining contrast changes the entire train/validation/target-screening package, not diversity alone.
 
 Validation crops contain a downstream anchor `(399,199)`, not necessarily the injection well `(200,199)`.
 Future config/CLI/manifest wording is corrected without changing crop coordinates or historical outputs.

@@ -7,6 +7,8 @@ import csv
 import json
 import os
 import random
+import sys
+import warnings
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
@@ -110,7 +112,16 @@ class Config:
         return self.source_col
 
 
+def warn_legacy_anchor_flags(argv: list[str]) -> None:
+    """Preserve old CLI behavior while making its anchor semantics explicit."""
+    if any(a.split("=", 1)[0] in {"--source_row", "--source_col"} for a in argv):
+        warnings.warn("--source_row/--source_col are deprecated aliases for the validation crop anchor, "
+                      "not the injection well. Use --validation_anchor_row/--validation_anchor_col.",
+                      FutureWarning, stacklevel=2)
+
+
 def parse_args() -> Config:
+    warn_legacy_anchor_flags(sys.argv[1:])
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_root", required=True)
     parser.add_argument("--split_json", default=Config.split_json)

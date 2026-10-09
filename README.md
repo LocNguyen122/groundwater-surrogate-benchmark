@@ -1,8 +1,46 @@
-# Groundwater surrogate benchmark and evaluation audit
+# Groundwater Surrogate Benchmark
 
-Research-code snapshot for reviewing deterministic groundwater plume surrogates and their evaluation
-on empirically screened fresh-seed geology. Original research code is MIT-licensed. This is **not a final paper release**. The associated
+[![CPU reproducibility checks](https://github.com/LocNguyen122/groundwater-surrogate-benchmark/actions/workflows/cpu-checks.yml/badge.svg?branch=main)](https://github.com/LocNguyen122/groundwater-surrogate-benchmark/actions/workflows/cpu-checks.yml)
+[![Original code: MIT](https://img.shields.io/badge/original_code-MIT-blue)](LICENSE)
+[![CPU environment: Python 3.11](https://img.shields.io/badge/CPU_environment-Python_3.11-64748b)](requirements-cpu.txt)
+
+Research code for **auditing generalization in groundwater plume surrogates**: conductivity twins,
+fresh-seed geology, transport conditioning and engineering decision trade-offs.
+
+**Associated manuscript:** *Auditing Generator-Induced Conductivity Twins in Groundwater Plume Surrogates*.
+
+[Research overview](#research-overview) · [Findings](#research-question-and-methods) ·
+[Reproduce summaries](#cpu-only-quick-start) · [Documentation](#documentation) · [Citation](#citation-and-review)
+
+**Status:** review-stage code snapshot, **not a final paper release**. Original research code is MIT-licensed. The associated
 manuscript is an unpublished review draft; no article DOI or acceptance is claimed. See [release status](RELEASE_STATUS.json).
+
+## Research overview
+
+```mermaid
+flowchart LR
+    A["Audit generated geology"] --> B["Grouped, twinned fields"]
+    A --> C["Fresh-seed geology"]
+    B --> D["Surrogates and setting-mean baseline"]
+    C --> D
+    D --> E["Plume similarity and well decisions"]
+    E --> F["Clustered statistical comparisons"]
+```
+
+Conceptual study design, not empirical plume imagery or an executable simulation pipeline. The audit
+distinguishes population-specific predictive accuracy from uncertainty and engineering decision costs.
+Raw simulation fields and trained checkpoints are not distributed here.
+
+| Research component | Implementation and evidence |
+| --- | --- |
+| Predictors and controls | Conductivity-conditioned surrogates, transport-code controls and a conductivity-free setting-mean baseline |
+| Generalization audit | Conductivity hashes, empirical random-stream screening and separate evaluation populations |
+| Statistical comparisons | Paired stream-clustered inference, hierarchical bootstrap intervals and multiplicity correction |
+| Engineering diagnostics | Plume similarity, well exceedances, false alarms and missed exceedances |
+| Reproducibility | CPU tests, source checksums, portable summary reproduction and selected/final-checkpoint certifications |
+
+The evaluation populations and averaging weights must be kept explicit. High grouped-split accuracy is not
+interchangeable with performance on fresh-seed geology, and average plume similarity is not a well-safety guarantee.
 
 ## Research question and methods
 
@@ -17,8 +55,8 @@ matched-code plume SSIM is approximately 0.512, below the setting mean of 0.822.
 remains positive, but the five-seed secondary `(62, 1)` contrast is inconclusive at both selected and final
 checkpoints. The related MS-TMO arm is not architecture-independent replication. The bounded log-setting mean
 has fewer false alarms but misses more well exceedances than the matched model; it is not Pareto-dominant.
-Older results are preserved as
-historical measurements, not relabeled as evidence of independent-geology generalization.
+Older results are preserved as historical measurements, not relabeled as evidence of independent-geology
+generalization. See the [scientific protocol](docs/SCIENTIFIC_PROTOCOL.md) for the estimands, exclusions and limitations.
 
 ## CPU-only quick start
 
@@ -44,8 +82,9 @@ python scripts/review_diagnostics.py --output reproduced/review_diagnostics.json
 python scripts/build_review_figures.py --output reproduced/figures
 ```
 
-`reproduced/` must be new. The final command reproduces the numeric macro bundle and exports checkpoint contrasts
-from the shipped statistical summaries. It verifies hashes before running and does not overwrite numerical sources.
+`reproduced/` must be new. Summary reproduction verifies the numeric macro bundle and exports checkpoint contrasts
+from the shipped statistical summaries. The figure command creates the study schematic, well trade-off plot and
+counterfactual matrix from permitted summaries, without restricted field pixels. Numerical sources are not overwritten.
 For full 10,000-replicate recomputation from the permitted per-case CSVs:
 
 ```bash
@@ -79,6 +118,25 @@ comparisons. Removing those inputs would prevent reproduction rather than simpli
 Historical run identifiers inside result paths are preserved to keep scientific traceability. No development
 checkout, compute-cluster workspace or inherited Git history is included.
 
+## Documentation
+
+| Start here | Purpose |
+| --- | --- |
+| [Reproduction map](docs/REPRODUCIBILITY_MAP.md) | Inputs and commands for manuscript tables and figures |
+| [Scientific protocol](docs/SCIENTIFIC_PROTOCOL.md) | Evaluation populations, analysis choices and required disclosures |
+| [Training replay](docs/TRAINING_REPLAY.md) | Historical and portable crop modes; limits of exact training replay |
+| [Environment provenance](docs/ENVIRONMENT_PROVENANCE.md) | CPU compatibility checks versus the historical training environment |
+| [Source lineage](provenance/SOURCE_SNAPSHOT.csv) and [manifest](MANIFEST_CODE_RELEASE.csv) | Auditable source origins and file-level SHA-256 integrity |
+| [License scope](docs/LICENSE_STATUS.md) and [third-party notices](docs/THIRD_PARTY_NOTICES.md) | Original-code MIT, exclusions and dependency obligations |
+
+### Verification scope
+
+The 9 October 2026 local checks passed **60 synthetic CPU tests**, exact reproduction of **570 original numeric
+macros**, and verification of **250 selected-checkpoint plus 250 final-checkpoint scoring outputs**.
+The live badge reports the current GitHub workflow status; it is not a claim of journal acceptance or full
+restricted-data reproduction. See the [CPU test record](results/v8/cpu_tests_license_2026-10-09.json) and
+[release status](RELEASE_STATUS.json).
+
 ## Availability, integrity and limitations
 
 Raw fields, simulation setups/commands/executables, checkpoints and prediction caches are excluded. Full training,
@@ -103,6 +161,12 @@ commands follow the [official PyTorch version instructions](https://pytorch.org/
 Historical training used its recorded environment; CI is a separate compatibility check, not a training rerun.
 
 ## Citation and review
+
+Research team: **Loc K. Nguyen**, Allanah Kenny, Theo S. Sarris and Binh P. Nguyen, as recorded in the
+source [citation metadata](CITATION.cff). [Loc K. Nguyen's ORCID](https://orcid.org/0000-0003-0561-6659).
+
+Use GitHub's **Cite this repository** entry or [CITATION.cff](CITATION.cff) for software citation, and include
+the commit hash used for reproduction. No published-paper citation or article DOI is supplied for the review draft.
 
 `CITATION.cff` identifies this software snapshot without inventing an article DOI or publication. The associated
 manuscript is titled *Auditing Generator-Induced Conductivity Twins in Groundwater Plume Surrogates*.

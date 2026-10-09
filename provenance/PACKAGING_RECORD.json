@@ -1,5 +1,13 @@
 {
   "snapshot_date": "2026-10-09",
+  "presentation_update_2026_10_09": {
+    "scope": "README navigation, live CPU status and license/environment badges, conceptual Mermaid study overview, evidence/documentation map and citation guidance",
+    "visual_provenance": "Original conceptual diagram defined in README; no simulation pixels, model output imagery or new numeric findings",
+    "scientific_files_changed": false,
+    "code_behavior_changed": false,
+    "manuscript_files_changed": false,
+    "release_boundary": "Unpublished review snapshot, original-code MIT; restricted assets and journal-policy decisions remain excluded or pending"
+  },
   "license_decision_2026_10_09": {
     "selected": "MIT for original research code",
     "selection_authorization": "Owner requested delegation of license choice and implementation",
